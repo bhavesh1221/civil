@@ -3,6 +3,7 @@
 // @import url(../../../../shared/styles/font-awesome.min.scss);
 // @import url(../../../../shared/styles/linearicons.scss);
 // @import url(../../../../shared/styles/magnific-popup.scss);
+// @import url('../../../shared/styles/main.scss');
 
 ::-moz-selection {
     background-color: #c6b069;
@@ -2124,7 +2125,7 @@ h6 {
     padding: 0 8px 0px 8px;
     text-decoration: none;
     display: inline-block;
-    color: #120202;
+    color: #fff;
     font-weight: 500;
     font-size: 12px;
     text-transform: uppercase;
@@ -2417,9 +2418,17 @@ body.mobile-nav-active #mobile-nav-toggle {
         font-size: 25px
     }
 }
-
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
 .banner-content p {
-    max-width: 900px
+    // max-width: 900px
 }
 
 .header-btn {

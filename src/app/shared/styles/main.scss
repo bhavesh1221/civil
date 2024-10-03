@@ -169,15 +169,15 @@ th {
     border-radius: 0px
 }
 
-// .clear::before,
-// .clear::after {
-//     content: " ";
-//     display: table
-// }
+.clear::before,
+.clear::after {
+    content: " ";
+    display: table
+}
 
-// .clear::after {
-//     clear: both
-// }
+.clear::after {
+    clear: both
+}
 
 .fz-11 {
     font-size: 11px
@@ -1856,9 +1856,9 @@ h6 {
     font-weight: 300
 }
 
-// .default-select .nice-select::after {
-//     right: 20px
-// }
+.default-select .nice-select::after {
+    right: 20px
+}
 
 @media (max-width: 991px) {
     .left-align-p p {
@@ -1917,9 +1917,9 @@ h6 {
     font-weight: 300
 }
 
-// .form-select .nice-select::after {
-//     right: 20px
-// }
+.form-select .nice-select::after {
+    right: 20px
+}
 
 .header-top {
     font-size: 12px;
