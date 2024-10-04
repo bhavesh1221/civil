@@ -3,20 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './shared/components/header/header/header.component';
-import { HomeModule } from './modules/home/home.module';
+// import { HeaderComponent } from './shared/components/header/header/header.component';
 import { FooterComponent } from './shared/components/footer/footer/footer.component';
+import { HomeModule } from './modules/home/home.module';
+import { OurServicesModule } from './modules/our-services/our-services.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    
-    
+    AppComponent,    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    OurServicesModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],

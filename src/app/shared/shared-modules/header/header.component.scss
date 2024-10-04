@@ -1608,7 +1608,7 @@ h6 {
 }
 
 .primary-checkbox input:checked+label {
-    background: url(../../../../../assets/img/elements/primary-check.png) no-repeat center center/cover;
+    // background: url(../../../../../assets/img/elements/primary-check.png) no-repeat center center/cover;
     border: none
 }
 
@@ -1646,7 +1646,7 @@ h6 {
 }
 
 .confirm-checkbox input:checked+label {
-    background: url(../../../../../assets/img/elements/success-check.png) no-repeat center center/cover;
+    // background: url(../../../../../assets/img/elements/success-check.png) no-repeat center center/cover;
     border: none
 }
 
@@ -1689,7 +1689,7 @@ h6 {
 }
 
 .disabled-checkbox input:checked+label {
-    background: url(../../../../../assets/img/elements/disabled-check.png) no-repeat center center/cover;
+    // background: url(../../../../../assets/img/elements/disabled-check.png) no-repeat center center/cover;
     border: none
 }
 
@@ -1727,7 +1727,7 @@ h6 {
 }
 
 .primary-radio input:checked+label {
-    background: url(../../../../../assets/img/elements/primary-radio.png) no-repeat center center/cover;
+    // background: url(../../../../../assets/img/elements/primary-radio.png) no-repeat center center/cover;
     border: none
 }
 
@@ -1765,7 +1765,7 @@ h6 {
 }
 
 .confirm-radio input:checked+label {
-    background: url(../../../../../assets/img/elements/success-radio.png) no-repeat center center/cover;
+    // background: url(../../../../../assets/img/elements/success-radio.png) no-repeat center center/cover;
     border: none
 }
 
@@ -1808,7 +1808,7 @@ h6 {
 }
 
 .disabled-radio input:checked+label {
-    background: url(../../../../../assets/img/elements/disabled-radio.png) no-repeat center center/cover;
+    // background: url(../../../../../assets/img/elements/disabled-radio.png) no-repeat center center/cover;
     border: none
 }
 
@@ -1932,7 +1932,7 @@ h6 {
 }
 
 .header-top a {
-    color: #5e3bf7
+    color: #ffffff
 }
 
 .header-top ul li {
@@ -2006,10 +2006,19 @@ h6 {
     padding-top: 20px;
     border-top: 1px solid #39353e
 }
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+}
 
 #header {
     padding: 0px 0px 20px 0px;
-    // position: fixed;
+    position: fixed;
     left: 0;
     top: 0;
     right: 0;
@@ -2124,7 +2133,7 @@ h6 {
     padding: 0 8px 0px 8px;
     text-decoration: none;
     display: inline-block;
-    color: #120202;
+    color: #ffffff;
     font-weight: 500;
     font-size: 12px;
     text-transform: uppercase;
@@ -2380,7 +2389,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-    background: url(../../../../../assets/img/banner-bg.jpg) center;
+    // background: url(../../../../../assets/img/banner-bg.jpg) center;
     background-size: cover
 }
 
@@ -2717,9 +2726,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .callto-action-wrap {
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../../../assets/img/call-action-bg.jpg) center;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../../../assets/img/call-action-bg.jpg) center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../../../assets/img/call-action-bg.jpg) center;
+    // background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../../../assets/img/call-action-bg.jpg) center;
+    // background: -o-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../../../assets/img/call-action-bg.jpg) center;
+    // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../../../assets/img/call-action-bg.jpg) center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
@@ -3129,7 +3138,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-video-right {
-    background: url(../../../../../assets/img/video-bg.jpg) no-repeat center;
+    // background: url(../../../../../assets/img/video-bg.jpg) no-repeat center;
     background-size: cover;
     height: 330px
 }
@@ -3286,7 +3295,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .blog-home-banner {
-    background: url(../../../../../assets/img/blog/blog-home-banner.jpg) bottom;
+    // background: url(../../../../../assets/img/blog/blog-home-banner.jpg) bottom;
     background-size: cover;
     padding: 130px 0px
 }

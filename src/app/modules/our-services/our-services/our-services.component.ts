@@ -1,13 +1,11 @@
 import { Component, HostListener } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: 'app-our-services',
+  templateUrl: './our-services.component.html',
+  styleUrls: ['./our-services.component.scss']
 })
-export class HomeComponent {
-  constructor(){}
-
+export class OurServicesComponent {
   // Adding scroll event listener
   @HostListener('window:scroll', [])
   onWindowScroll(): void {
@@ -25,15 +23,5 @@ export class HomeComponent {
       }
     }
     
-  }
-  ngOnInit() {
-  // debugger;
-  //   $(window).scroll(function() {
-  //     if ($(this).scrollTop() > 100) {
-  //         $('#header').addClass('header-scrolled');
-  //     } else {
-  //         $('#header').removeClass('header-scrolled');
-  //     }
-  // });
   }
 }

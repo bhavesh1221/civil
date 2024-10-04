@@ -1,0 +1,60 @@
+<header style="border: 1px solid;" id="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+                    <a href="tel:+953 012 3654 896">+953 012 3654 896</a>
+                    <a href="mailto:support@colorlib.com">support@colorlib.com</a>					  
+                </div>
+                <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
+                    <ul>
+                      <li><a><i class="fa fa-facebook"></i></a></li>
+                      <li><a><i class="fa fa-twitter"></i></a></li>
+                      <li><a><i class="fa fa-dribbble"></i></a></li>
+                      <li><a><i class="fa fa-behance"></i></a></li>
+                    </ul>			
+                </div>
+            </div>			  					
+        </div>
+  </div>
+  <div class="container main-menu">
+      <div class="row align-items-center justify-content-between d-flex">
+        <div id="logo">
+          <a ><img src="assets/img/logo.png" alt="" title="" /></a>
+        </div>
+        <nav #hoverDiv id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a routerLink="/home">Home</a></li>
+            <li><a routerLink="/aboutus">About</a></li>
+            <li appHover class="menu-has-children">
+              <a routerLink="/our-services">Services</a>
+              <ul >
+                <li><a >serive 1</a></li>
+                <li><a >service  2</a></li>
+              </ul>
+            </li>
+            <li><a >Projects</a></li>
+            <li appHover class="menu-has-children"><a >Blog</a>
+              <ul>
+                <li><a >Blog Home</a></li>
+                <li><a >Blog Single</a></li>
+              </ul>
+            </li>	
+            <li appHover class="menu-has-children"><a >Pages</a>
+              <ul>
+                    <li><a >Project Details</a></li>		
+                  <li><a >Elements</a></li>
+                    <li class="menu-has-children"><a href="">Level 2 </a>
+                      <ul>
+                        <li><a >Item One</a></li>
+                        <li><a >Item Two</a></li>
+                      </ul>
+                    </li>					                		
+              </ul>
+            </li>					          					          		          
+            <li><a routerLink="/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+  </div>
+</header>

@@ -1,9 +1,4 @@
-// @import url(../../../../shared/styles/animate.min.scss);
-// @import url(../../../../shared/styles/bootstrap.scss);
-// @import url(../../../../shared/styles/font-awesome.min.scss);
-// @import url(../../../../shared/styles/linearicons.scss);
-// @import url(../../../../shared/styles/magnific-popup.scss);
-// @import url('../../../shared/styles/main.scss');
+
 
 ::-moz-selection {
     background-color: #c6b069;
@@ -175,15 +170,15 @@ th {
     border-radius: 0px
 }
 
-// .clear::before,
-// .clear::after {
-//     content: " ";
-//     display: table
-// }
+.clear::before,
+.clear::after {
+    content: " ";
+    display: table
+}
 
-// .clear::after {
-//     clear: both
-// }
+.clear::after {
+    clear: both
+}
 
 .fz-11 {
     font-size: 11px
@@ -1862,9 +1857,9 @@ h6 {
     font-weight: 300
 }
 
-// .default-select .nice-select::after {
-//     right: 20px
-// }
+.default-select .nice-select::after {
+    right: 20px
+}
 
 @media (max-width: 991px) {
     .left-align-p p {
@@ -1923,9 +1918,9 @@ h6 {
     font-weight: 300
 }
 
-// .form-select .nice-select::after {
-//     right: 20px
-// }
+.form-select .nice-select::after {
+    right: 20px
+}
 
 .header-top {
     font-size: 12px;
@@ -1933,7 +1928,7 @@ h6 {
 }
 
 .header-top a {
-    color: #5e3bf7
+    color: #ffffff
 }
 
 .header-top ul li {
@@ -2428,7 +2423,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     align-items: center;
 }
 .banner-content p {
-    // max-width: 900px
+    max-width: 900px
 }
 
 .header-btn {
@@ -2962,7 +2957,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-footer-widget .click-btn {
     background-color: #c6b069;
-    color: #fff;
+    color: #000000;
     border-radius: 0;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
