@@ -36,6 +36,6 @@ hideTimeout: any;
   // Set a timeout to hide the element after 2 seconds
   this.hideTimeout = setTimeout(() => {
     hoveredElement.getElementsByTagName('ul')[0].style.display = 'none';
-  }, 2000); // 2 seconds delay
+  }, 500); // 2 seconds delay
 }
 }
