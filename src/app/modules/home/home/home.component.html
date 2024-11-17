@@ -1,59 +1,3 @@
-<!-- header component starts-->
- <!-- <section style="border: 1px solid;" id="header">
-    <div class="header-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
-                    <a href="tel:+953 012 3654 896">+953 012 3654 896</a>
-                    <a href="mailto:support@colorlib.com">support@colorlib.com</a>					  
-                </div>
-                <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
-                    <ul>
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                      <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    </ul>			
-                </div>
-            </div>			  					
-        </div>
-  </div>
-  <div class="container main-menu">
-      <div class="row align-items-center justify-content-between d-flex">
-        <div id="logo">
-          <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>
-        </div>
-        <nav id="nav-menu-container">
-          <ul class="nav-menu">
-            <li class="menu-active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li class="menu-has-children"><a href="">Blog</a>
-              <ul>
-                <li><a href="blog-home.html">Blog Home</a></li>
-                <li><a href="blog-single.html">Blog Single</a></li>
-              </ul>
-            </li>	
-            <li class="menu-has-children"><a href="">Pages</a>
-              <ul>
-                    <li><a href="project-details.html">Project Details</a></li>		
-                  <li><a href="elements.html">Elements</a></li>
-                    <li class="menu-has-children"><a href="">Level 2 </a>
-                      <ul>
-                        <li><a href="#">Item One</a></li>
-                        <li><a href="#">Item Two</a></li>
-                      </ul>
-                    </li>					                		
-              </ul>
-            </li>					          					          		          
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-  </div>
-</section>  -->
-<!-- header component ends -->
 
 <app-header></app-header>
 <!-- <p>home works!</p> -->
@@ -74,44 +18,84 @@
         </div>
     </div>
 </section>
+<!-- <section class="service-area mt-45px" id="service">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 header-text text-center">
+                <h1 class="mb-10">What we offer to our clients</h1>
+            </div>
+        </div>
+    </div>
+</section> -->
+<app-content-img [bim_outsourcing] = bim_outsourcing></app-content-img> 
+
+<!-- <div class="">
+    <div class="">
+        <h2><h4>BIM OUTSOURCINGARCHITECTURE</h4></h2>
+        <a href="#"></a>
+        <p>
+            Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product.
+        </p>
+    </div>
+</div>	 -->
+
 <section class="service-area section-gap" id="service">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 pb-50 header-text text-center">
-                <h1 class="mb-10">What we offer to our clients</h1>
-                <p>
+                <h1 class="mb-10">OUR BIM OUTSOURCING SERVICE OFFERINGS</h1>
+                <!-- <p>
                     Who are in extremely love with eco friendly system..
-                </p>
+                </p> -->
             </div>
         </div>						
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="single-service">
-                    <a href="#"><h4>Interior Design</h4></a>
-                    <p>
-                        Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product.
-                    </p>
-                </div>
-            </div>	
-            <div class="col-lg-4">
-                <div class="single-service">
-                    <a href="#"><h4>Architecture Design</h4></a>
-                    <p>
-                        Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
-                    </p>
-                </div>
-            </div>	
-            <div class="col-lg-4">
-                <div class="single-service">
-                    <a href="#"><h4>Concept Design</h4></a>
-                    <p>
-                        Can you imagine what we will be downloading in another twenty years? I mean who would have ever thought that you could record sound.
-                    </p>
-                </div>
-            </div>																													
+        <div class="row mb-25px">
+            <app-cards [col]="'three'"></app-cards>
+            <app-cards [col]="'three'"></app-cards>
+            <app-cards [col]="'three'"></app-cards>
+        </div>
+        
+        <div class="row mb-25px">
+            <app-cards [col]="'three'"></app-cards>
+            <app-cards [col]="'three'"></app-cards>
+            <app-cards [col]="'three'"></app-cards>
+        </div>
+            
+            <div class="row mb-25px">
+                <app-cards [col]="'three'"></app-cards>
+                <app-cards [col]="'three'"></app-cards>
+                <app-cards [col]="'three'"></app-cards>
+            </div>
+    </div>	
+</section>
+
+<section class="service-area section-gap" id="service">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 pb-50 header-text text-center">
+                <h1 class="mb-10">OUR PROJECTS</h1>
+                <!-- <p>
+                    Who are in extremely love with eco friendly system..
+                </p> -->
+            </div>
+        </div>						
+        <div class="row mb-25px">
+            <app-cards [col]="'two'"  ></app-cards>
+            <app-cards [col]="'two'" ></app-cards>
+        </div>
+        
+        <div class="row mb-25px">
+            <app-cards [col]="'two'"></app-cards>
+            <app-cards [col]="'two'"></app-cards>
+        </div>
+            
+        <div class="row mb-25px">
+            <app-cards [col]="'two'"></app-cards>
+            <app-cards [col]="'two'"></app-cards>
         </div>
     </div>	
 </section>
+
 <section class="gallery-area pb-120">
     <div class="container">
         <div class="row d-flex justify-content-center">
