@@ -7,11 +7,16 @@ import { Component,Input } from '@angular/core';
 })
 export class CardsComponent {
   @Input() col = "";
+  @Input() imgPath = "";
+  @Input() heading = "";
+  @Input() description = "";
+  // @Input() imgPath = "/assets/homepage/ARCHITECTURE BIM SERVICE.png";
   three = false;
   two = false;
   one = false;
+
   ngOnInit() {
-    debugger;
+
     console.log(this.col);
     if(this.col == 'three'){
       this.three = true;
