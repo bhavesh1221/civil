@@ -4,9 +4,9 @@ two ? 'col-lg-6' : '',
 three ? 'col-lg-4' : ''
 ]" >
     <div class="single-service">
-        <img src="{{imgPath}}" alt="img">
+        <img [ngClass]="calledFrom == 'our projects'? 'w-100h-100per' : calledFrom == 'our projects'? 'w-160-h-100per' : '' "  src="{{imgPath}}" alt="img">
         <a href="#"><h4> {{heading}} </h4></a>
-        <p>
+        <p [ngClass]="calledFrom == 'BIM OUTSOURCING SERVICE'? 'h-120' : '' " >
             {{description}}
         </p>
     </div>

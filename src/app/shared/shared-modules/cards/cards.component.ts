@@ -1,23 +1,26 @@
-import { Component,Input } from '@angular/core';
+import { Component,DoCheck,Input, SimpleChanges } from '@angular/core';
+import { withDebugTracing } from '@angular/router';
 
 @Component({
   selector: 'app-cards',
   templateUrl: './cards.component.html',
   styleUrls: ['./cards.component.scss']
 })
-export class CardsComponent {
+export class CardsComponent implements DoCheck {
   @Input() col = "";
   @Input() imgPath = "";
   @Input() heading = "";
   @Input() description = "";
+  @Input() calledFrom = "";
+  
   // @Input() imgPath = "/assets/homepage/ARCHITECTURE BIM SERVICE.png";
   three = false;
   two = false;
   one = false;
 
+
   ngOnInit() {
 
-    console.log(this.col);
     if(this.col == 'three'){
       this.three = true;
     }
@@ -27,8 +30,12 @@ export class CardsComponent {
     if(this.col == 'one'){
       this.one = true
     } 
-    
+  }
 
-}
+  ngDoCheck(): void {
+    // if(this.calledFrom == "our projects"){
+      
+    // }
+  }
 }
 
