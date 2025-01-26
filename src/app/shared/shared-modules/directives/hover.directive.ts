@@ -17,10 +17,12 @@ hideTimeout: any;
   clearTimeout(this.hideTimeout);
 
   // Immediately display the element on mouse enter
-  hoveredElement.getElementsByTagName('ul')[0].style.display = 'block';
+  hoveredElement.getElementsByTagName('ul')[0].style.display = 'flex';
 
   // Make sure to reset opacity in case it was set to 0 before
   hoveredElement.getElementsByTagName('ul')[0].style.opacity = '1';
+  hoveredElement.getElementsByTagName('ul')[0].style.right = (event.clientX - 400) + 'px';
+  
 }
 
 // Capture the leave event
