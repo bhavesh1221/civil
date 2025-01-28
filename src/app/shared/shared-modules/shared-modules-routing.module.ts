@@ -3,9 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { OurServicesComponent } from 'src/app/modules/our-services/our-services/our-services.component';
 
 const routes: Routes = [
-  // {
-  //   path: 'our-services', component: OurServicesComponent
-  // }
+  {
+    path: 'bim-modelling/:id', component: OurServicesComponent,
+  },
+  {
+    path: 'documentation-service/:id', component: OurServicesComponent,
+  }
 ];
 
 @NgModule({
