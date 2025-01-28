@@ -43,7 +43,7 @@
     justify-content: space-between;
   }
   .custom-width{
-    width: 45%;
+    width: 49%;
   }
   .img-text-layout-container{
     display: flex;
@@ -144,11 +144,16 @@
 }
 .build-project-bg-color{
     background: #564548;
+    background: url(../../../../assets/ourservices/GettyImages-1313854425.jpg) center;
 }
 .build-project-container{
+    // background-image: url();
     display: flex;
     flex-direction: column;
     top: 13%;
+}
+.fw-normal{
+    font-weight: normal;
 }
 .position-relative{
     position: relative;
@@ -159,6 +164,7 @@
 .build-together-text{
     font-weight: normal;
     font-size: 55px;
+    color: white;
 }
 .build-btn{
     background-color: #1C1A1A;

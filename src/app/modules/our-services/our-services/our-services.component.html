@@ -83,10 +83,10 @@
             <h5 class="services_heading">Services</h5>
         </div>
         <div class="content">
-            <h1>BIM Modeling</h1>
+            <h1 class="fw-normal"> {{layoutData[0].arcBimModelling}} </h1>
             <div class="custom-width">
                 <p class="description">
-                    We generate coordinated models using 3D Modeling services. It allows our clients to check possible interference among all building systems through 3D BIM Modeling Services.
+                    {{layoutData[0].arcBimModellingDesc}}
                 </p>
             </div>
         </div>
@@ -101,10 +101,10 @@
     <div class="img-text-layout-container">
         <div class="img-text-layout-container-left">
             <h2 class="img-text-layout-container-left-heading">
-                Delivering integrated BIM services to build lasting success
+                {{layoutData[0].success}}
             </h2>
             <h5 class="img-text-layout-container-left-description">
-                When you partner with the BIM builders, you not only get innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our relentless focus on success leads to smarter more collaborative building practices.
+                {{layoutData[0].successDesc}}
             </h5>
             
         </div>
@@ -117,7 +117,7 @@
   <div class="bim-modeling-section">
     <div class="services-thrid-section">
         <div >
-            <h1 class="services-thrid-section-heading">No matter how challenging you design is, when you partner with us you get the best BIM service in the AEC industry.</h1>
+            <h1 class="services-thrid-section-heading">  {{layoutData[0].challenge}} </h1>
         </div>
         <div class="">
           <img src="assets/homepage/FINAL/3d modeling.jpeg" alt="BIM Model 1" class="services-thrid-section-img">
@@ -133,10 +133,10 @@
         </div>
         <div class="img-text-layout-container-left-common">
             <h2 class="img-text-layout-container-left-heading-common">
-                Pushing the AEC Industry Forward
+                 {{layoutData[0].movingforwardHeading1}} 
             </h2>
             <h5 class="img-text-layout-container-left-description-common">
-                At the BIM builders, we are passionate about driving value into every project we undertake. We continue to challenge our people, projects, and the industry. By being forward-thinking, and how can we facilitate better project coordination, collaboration, asset management, risk mitigation, logistic planning, and cost optimization.
+                {{layoutData[0].forwardDesc1}} 
             </h5>
             
         </div>
@@ -147,22 +147,21 @@
   <div class="bim-modeling-section">
     <div class="similar-projects">
         <div class="similar-projects">
-            <h1 class="mb-10">Explore similar projects</h1>
+            <h1 class="mb-10 fw-normal"> {{layoutData[0].similarHeading}}   </h1>
         </div>
         <div class="similar-projects-img-container">
             <div class="similar-proimg">
                 <img src="assets/homepage/FINAL/3d modeling.jpeg" alt="BIM Model 1" class="similar-project-img w-100 custom-height-similar-projects br-8">
-                <p class="mt-15 fs-20">ARCHITECTURE BIM SERVICE</p>
+                <p class="mt-15 fs-20"> {{layoutData[0].similarTitle1}}  </p>
             </div>
             <div class="similar-proimg">
                 <img src="assets/homepage/FINAL/3d modeling.jpeg" alt="BIM Model 1" class="similar-project-img w-100 custom-height-similar-projects br-8">
-                <p class="mt-15 fs-20">ARCHITECTURE BIM SERVICE</p>
-               
+                <p class="mt-15 fs-20"> {{layoutData[0].similarTitle2}} </p>
 
             </div>
             <div class="similar-proimg">
                 <img src="assets/homepage/FINAL/3d modeling.jpeg" alt="BIM Model 1" class="similar-project-img w-100 custom-height-similar-projects br-8">
-                <p class="mt-15 fs-20">ARCHITECTURE BIM SERVICE</p>
+                <p class="mt-15 fs-20"> {{layoutData[0].similarTitle2}} </p>
                
 
             </div>
