@@ -6,6 +6,7 @@ export const data = [
         success: "Delivering integrated BIM services to build lasting success",
         successDesc: "When you partner with the BIM builders, you not only get innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our relentless focus on success leads to smarter more collaborative building practices.",
         challenge: "FARMHOUSE PROJECT",
+        firstImg1: "assets/ourservices/FARMHOUSE/",
 
         movingforwardHeading1: "ARCHITECTURAL BIM MODELING:",
         forwardDesc1:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
@@ -27,14 +28,14 @@ export const data = [
     },
     {
         id:2,
-        arcBimModelling: "ARCHITECTURAL BIM MODELING",
-        arcBimModellingDesc: "At The Zenith Visions, we specialize in delivering cutting-edge Architectural BIM Services that redefine the way architecture meets technology. Our approachfocuses on creating intelligent, data-rich 3D models that streamline the design, documentation, and execution of architectural projects, ensuring unmatched precision and efficiency can bring your vision to life.",
+        arcBimModelling: "STRUCTURAL BIM MODELING",
+        arcBimModellingDesc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise",
         success: "Delivering integrated BIM services to build lasting success",
         successDesc: "When you partner with the BIM builders, you not only get innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our relentless focus on success leads to smarter more collaborative building practices.",
-        challenge: "No matter how challenging you design is, when you partner with us you get the best BIM service in the AEC industry.",
+        challenge: "COMMUNITY HAL",
 
-        movingforwardHeading1: "ARCHITECTURAL BIM MODELING:",
-        forwardDesc1:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
+        movingforwardHeading1: "STRUCTURAL BIM MODELING",
+        forwardDesc1: ``,
         movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
         movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
         movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
