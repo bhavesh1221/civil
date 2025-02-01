@@ -26,12 +26,12 @@ export class HomeComponent {
     if (scrollPosition > 100) {
 
       Array.from(aTags).forEach((element) => {
-        (element as HTMLElement).style.color = "white";
+        (element as HTMLElement).style.color = "black";
       });
       let header = document.getElementById("header");
       if (header) {
-        header.classList.add("header-scrolled");
-        header.classList.remove("white-bg");
+        header.classList.add("");
+        // header.classList.remove("white-bg");
         
       }
     } else if (scrollPosition < 100) {

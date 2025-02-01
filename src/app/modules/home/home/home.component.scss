@@ -2489,12 +2489,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-service:hover {
-    background-color: #04091e;
+    background-color: #e3e3e3;
     border-color: #04091e
 }
 
 .single-service:hover h4 {
-    color: #c6b069
+    color: #000000
 }
 
 @media (max-width: 1024px) {
@@ -3148,7 +3148,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-video-right {
-    background: url(../../../../assets/img/video-bg.jpg) no-repeat center;
+   
     background-size: cover;
     height: 330px
 }
