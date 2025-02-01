@@ -39,7 +39,7 @@
 
 body {
     color: #777;
-    font-family: "Poppins", sans-serif;
+    font-family: system-ui;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.625em;
@@ -113,7 +113,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Poppins", sans-serif;
+    font-family: system-ui;
     color: #222;
     line-height: 1.2em !important;
     margin-bottom: 0;
@@ -129,7 +129,7 @@ h6 {
 .h6 {
     margin-bottom: 0;
     margin-top: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: system-ui;
     font-weight: 600;
     color: #222
 }
@@ -2018,6 +2018,13 @@ h6 {
     background-color: rgba(34, 34, 34, 0.9)
 }
 
+.header-scrolled a{
+    color: white;
+}
+.white-bg{
+    background: white;
+}
+
 @media (max-width: 673px) {
     #logo {
         margin-left: 20px
@@ -2101,7 +2108,7 @@ h6 {
     content: "\f107";
     position: absolute;
     right: 15px;
-    font-family: FontAwesome;
+    font-family: system-ui;
     font-style: normal;
     font-weight: normal
 }
@@ -2381,9 +2388,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     bottom: 0
 }
 
-.banner-area {
-    background: url(../../../../assets/img/front_facade.png) center;
-    background-size: cover;
+.w-100{
+    width: 100%;
 }
 .br-8px{
     border-radius: 8px;
@@ -2483,12 +2489,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-service:hover {
-    background-color: #04091e;
+    background-color: #e3e3e3;
     border-color: #04091e
 }
 
 .single-service:hover h4 {
-    color: #c6b069
+    color: #000000
 }
 
 @media (max-width: 1024px) {
@@ -3142,7 +3148,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-video-right {
-    background: url(../../../../assets/img/video-bg.jpg) no-repeat center;
+   
     background-size: cover;
     height: 330px
 }
