@@ -22,20 +22,47 @@ export class HomeComponent {
   onWindowScroll(): void {
     const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop || 0;
     
+    let aTags: HTMLCollectionOf<Element> = document.getElementsByClassName('change-color');
     if (scrollPosition > 100) {
+
+      Array.from(aTags).forEach((element) => {
+        (element as HTMLElement).style.color = "white";
+      });
       let header = document.getElementById("header");
       if (header) {
         header.classList.add("header-scrolled");
+        header.classList.remove("white-bg");
+        
       }
     } else if (scrollPosition < 100) {
+      Array.from(aTags).forEach((element) => {
+        console.log(element);
+        (element as HTMLElement).style.color = "black";
+      });
       let header = document.getElementById("header");
       if (header) {
         header.classList.remove("header-scrolled");
+        header.classList.add("white-bg");
+
       }
     }
     
   }
   ngOnInit() {
+    //code to show run vision
+    // const txt:any = document.getElementById('vision')
+    //     const prog = "Elevating Visions to New Height"	;
+    //     let indx = 1;
+    //     function writeText(){
+    //         txt.innerText = prog.slice(0,indx)
+    //         indx++;
+    //         if(indx>prog.length){
+    //             indx=1;
+    //         }
+    //     }
+    //     setInterval(writeText,150)
+    //code to show run vision
+
   // debugger;
   //   $(window).scroll(function() {
   //     if ($(this).scrollTop() > 100) {

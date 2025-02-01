@@ -1,5 +1,5 @@
-<header  id="header">
-    <div class="header-top">
+<header  id="header" class="white-bg">
+    <!-- <div class="header-top">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
@@ -19,29 +19,27 @@
                           <i class="fa fa-instagram" style="font-size:14px;color:red"></i>
                         </a>
                       </li>
-                      <!-- <li><a><i class="fa fa-twitter"></i></a></li> -->
-                      <!-- <li><a href="https://www.linkedin.com/company/105681155/admin/dashboard/"><i class="fa fa-dribbble"></i></a></li>  -->
+                     
                       <li> <a href="https://www.linkedin.com/company/105681155/admin/dashboard/" ><i class="fa fa-linkedin" style="font-size:14px;color:#0a66c2"></i></a> </li> 
                       
 
-                      <!-- <li><a href="https://youtube.com/@thezenithvisions24?si=MFCAfI2tnL6fJ41z"> <i class="fa fa-behance"></i></a></li> -->
                       <li><a href="https://youtube.com/@thezenithvisions24?si=MFCAfI2tnL6fJ41z"> <i class="fa fa-youtube-play" style="font-size:14px;color:red"></i></a></li>
                     </ul>			
                 </div>
             </div>			  					
         </div>
-  </div>
+  </div> -->
   <div class="container main-menu">
       <div class=" align-items-center justify-content-between d-flex">
         <div id="logo">
-          <a ><img style="width: 65px; height: 60px; background: #76745b63;" src="assets/img/logo.png" alt="" title="" /></a>
+          <a ><img style="width: 65px; height: 60px;" src="assets/img/logo.png" alt="" title="" /></a>
         </div>
         <nav #hoverDiv id="nav-menu-container">
           <ul class="nav-menu">
-            <li class="menu-active"><a routerLink="/home">Home</a></li>
-            <li><a routerLink="/aboutus">About</a></li>
+            <li class="menu-active"><a class="change-color" routerLink="/home">Home</a></li>
+            <li><a class="change-color" routerLink="/aboutus">About</a></li>
             <li appHover class="menu-has-children">
-              <a [routerLink]="['/bim-modelling', 1]">Services</a>
+              <a class="change-color" [routerLink]="['/bim-modelling', 1]">Services</a>
               <ul >
                 
                 <li>
@@ -152,14 +150,14 @@
                 
               </ul>
             </li>
-            <li><a >Projects</a></li>
-            <li appHover class="menu-has-children"><a >Blog</a>
+            <li><a class="change-color">Projects</a></li>
+            <!-- <li appHover class="menu-has-children"><a >Blog</a>
               <ul>
                 <li><a >Blog Home</a></li>
                 <li><a >Blog Single</a></li>
               </ul>
-            </li>	
-            <li appHover class="menu-has-children"><a >Pages</a>
+            </li>	 -->
+            <li appHover class="menu-has-children"><a class="change-color" >Pages</a>
               <ul>
                     <li><a >Project Details</a></li>		
                   <li><a >Elements</a></li>
@@ -171,7 +169,7 @@
                     </li>					                		
               </ul>
             </li>					          					          		          
-            <li><a routerLink="/contact">Contact</a></li>
+            <li><a class="change-color" routerLink="/contact">Contact</a></li>
           </ul>
         </nav>
       </div>
