@@ -8,6 +8,9 @@ const routes: Routes = [
     path: 'bim-modelling/:id', component: OurServicesComponent,
   },
   {
+    path: 'bim-modelling', component: OurServicesComponent,
+  },
+  {
     path: 'documentation-service/:id', component: OurServicesComponent,
   },
   {

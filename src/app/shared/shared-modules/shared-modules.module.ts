@@ -7,6 +7,7 @@ import { HoverDirective } from './directives/hover.directive';
 import { ContentImgComponent } from './content-img/content-img.component';
 import { CardsComponent } from './cards/cards.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { FooterComponent } from '../components/footer/footer/footer.component';
 
 
 @NgModule({
@@ -15,10 +16,12 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
     HoverDirective,
     ContentImgComponent,
     CardsComponent,
-    ErrorpageComponent
+    ErrorpageComponent,
+    FooterComponent
   ],
   exports : [
     HeaderComponent,
+    FooterComponent,
     ContentImgComponent,
     CardsComponent
   ],

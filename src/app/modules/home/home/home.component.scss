@@ -3117,7 +3117,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about-video-left h1 {
-    padding: 20px 0
+    padding: 0px 0 20px 0;
 }
 
 @media (max-width: 413px) {
@@ -3147,10 +3147,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #c6b069
 }
 
+a{
+    color: #000;
+}
 .about-video-right {
    
     background-size: cover;
     height: 330px
+}
+.mtb-50px {
+    padding: 80px 0px 0px 0px;
 }
 
 .about-video-right .overlay-bg {

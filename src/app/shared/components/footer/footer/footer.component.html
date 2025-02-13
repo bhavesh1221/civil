@@ -1,1 +1,140 @@
-<p>footer works!</p>
+<!-- <footer>
+    <div class="footer-container">
+        <div class="footer-top">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="BIM Builders Logo">
+                <div style="align-self: end;">
+                    <h2>the </h2>
+                    <h2><strong>Zenith Vision</strong> </h2>
+                </div>
+
+            </div>
+
+            <div class="locations">
+                <div class="location">
+                    <h4>Services</h4>
+                    <p> ARCHITECTURE BIM SERVICE </p>
+                    <p> STRUCTURAL BIM SERVICE </p>
+                    <p> MEP BIM SERVICE </p>
+                    <p> SCAN TO BIM SERVICES </p>
+                    <p> DRAFTING SERVICE </p>
+                    <p> 3D MODELING </p>
+                    <p> INTERIOR DOCUMENTATION </p>
+                    <p> 3D RENDERING </p>
+
+                </div>
+                <div class="location">
+                    <h4>Other Links</h4>
+                    <p> Privacy policy </p>
+                    <p> Terms of use </p>
+                    <p> Join our team </p>
+                </div>
+                <div class="location">
+                    <h4> Contact us </h4>
+                    <p> ENQUIRY@THEZENITHVISIONS.COM </p>
+                    <p> IND (+91) 8770093683 </p>
+                    <p> US (+1) (551) 347-6950 </p>
+                    <p> US (+1) (551) 260-0553 </p>
+                    
+                </div>
+              
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="links">
+                <span>PROJECTS</span>
+                <span>HISTORY</span>
+                <span>VISION</span>
+                <span>LEADERSHIP</span>
+                <span>CAREERS</span>
+            </div>
+
+            <div class="social-media">
+                <span>Facebook</span>
+                <span>Linkedin</span>
+                <span>Instagram</span>
+            </div>
+
+            <div class="policies">
+                <span>Terms and Conditions</span>
+                <span>Privacy Policy</span>
+            </div>
+        </div>
+
+        <p class="copyright">©2025 All Rights Reserved | the BIM builders</p>
+    </div>
+
+</footer>
+ -->
+ <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="BIM Builders Logo" class="footer-img">
+            <div style="align-self: end;" class="footer-logo-text">
+                <h2>the </h2>
+                <h2><strong>Zenith Vision</strong> </h2>
+            </div>
+
+        </div>
+        <div style="margin-top: 25px;">
+            <ul class="footer-social-logo">
+                      
+                <li>
+                  <a href="#">
+                    <i class="fa fa-facebook-f" style="font-size:20px;color:rgb(53, 89, 252)"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/thezenithvisions?igsh=MXN5dmNqMmw4ejR5ZQ==">
+                    <i class="fa fa-instagram" style="font-size:20px;color:red"></i>
+                  </a>
+                </li>
+               
+                <li> <a href="https://www.linkedin.com/company/105681155/admin/dashboard/" ><i class="fa fa-linkedin" style="font-size:20px;color:#0a66c2"></i></a> </li> 
+                
+
+                <li><a href="https://youtube.com/@thezenithvisions24?si=MFCAfI2tnL6fJ41z"> <i class="fa fa-youtube-play" style="font-size:20px;color:red"></i></a></li>
+              </ul>	
+        </div>
+       
+      </div>
+      <div class="footer-column">
+        <h3>Service</h3>
+        <ul>
+            <li><a [routerLink]="['/bim-modelling', 1]">Architecture BIM Service</a></li>
+            <li><a [routerLink]="['/structure-bim-modelling', 5]">Structural BIM Service</a></li>
+            <li><a [routerLink]="['/mep-documentation', 12]">MEP BIM Service</a></li>
+            <li><a [routerLink]="['/cad-documentation', 13]">Drafting Service</a></li>
+            <li><a [routerLink]="['/scan-to-bim', 21]">Scan to BIM Service</a></li>
+            <li><a [routerLink]="['/sketchup-modelling', 31]">3D Modelling</a></li>
+            <li><a [routerLink]="['/interior-documentation', 18]">Interior Documentation</a></li>
+            <li><a [routerLink]="['/3d-architectural-rendering', 25]">3D Rendering</a></li>
+        </ul>
+        
+          
+      </div>
+     
+      <div class="footer-column">
+        <h3>Other Links</h3>
+        <ul>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Terms of use</a></li>
+          
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <ul>
+          <li><a href="#">enquiry@thezenithvisions.com</a></li>
+          <li><a href="#">IND (+91) 8770093683</a></li>
+          <li><a href="#">US (+1) (551) 347-6950</a></li>
+          <li><a href="#">US (+1) (551) 260-0553</a></li>
+        </ul>
+      </div>
+    </div>
+    <button class="back-to-top" id="backToTop" (click)="scrollToTop()">Back to Top</button>
+
+  </footer>
+  
