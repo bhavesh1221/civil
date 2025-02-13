@@ -78,9 +78,9 @@
 <!-- End banner Area -->
 
 <section class="bim-modeling-section">
-    <div class="">
+    <div class="container">
         <div class="">
-            <h5 class="services_heading">Services</h5>
+            <h5 class="services_heading ">  Services <span></span></h5>
         </div>
         <div class="content">
             <h1 class="fw-normal"> {{layoutData[0].view1heading}} </h1>
@@ -98,7 +98,7 @@
   </section>
 
   <div class="bim-modeling-section">
-    <div class="img-text-layout-container">
+    <div class="img-text-layout-container container">
         <div class="img-text-layout-container-left">
             <h2 class="img-text-layout-container-left-heading">
                 {{layoutData[0].view2heading}}
@@ -115,7 +115,7 @@
   </div>
 
   <div class="bim-modeling-section">
-    <div class="services-thrid-section">
+    <div class="services-thrid-section container">
         <div >
             <h1 class="services-thrid-section-heading">  {{layoutData[0].view3heading}} </h1>
         </div>
@@ -127,7 +127,7 @@
   </div>
 
   <div class="bim-modeling-section">
-    <div class="img-text-layout-container-common">
+    <div class="img-text-layout-container-common container">
         <div class="img-text-layout-container-right-common">
             <img src="{{layoutData[0].view4img1}}" alt="BIM Model 1" class="bim-modeling-section-img-common">
         </div>
@@ -145,11 +145,11 @@
   </div>
 
   <div class="bim-modeling-section">
-    <div class="similar-projects">
+    <div class="similar-projects container">
         <div class="similar-projects">
             <h1 class="mb-10 fw-normal"> {{layoutData[0].cardsHeading}}   </h1>
         </div>
-        <div class="similar-projects-img-container">
+        <div class="similar-projects-img-container ">
             <div class="similar-proimg">
                 <img src="{{layoutData[0].view5img1}}" alt="BIM Model 1" class="similar-project-img w-100 custom-height-similar-projects br-8">
                 <p class="mt-15 fs-20"> {{layoutData[0].cardsTitle1}}  </p>
@@ -169,8 +169,10 @@
     </div>
   </div>
 
+
+
   <div class="bim-modeling-section h300 build-project-bg-color position-relative">
-    <div class="build-project-container position-absolute">
+    <div class="build-project-container position-absolute container">
        <div class="mb-18">
             <h1 class="build-together-text">
                 Ready to <br>
@@ -188,3 +190,6 @@
        </div>
     </div>
   </div>
+  <app-footer>
+
+  </app-footer>

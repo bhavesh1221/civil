@@ -2071,15 +2071,23 @@ h6 {
 .nav-menu,
 .nav-menu * {
     margin: 0;
-    padding: 0;
-    list-style: none
-}
+    padding: 2px 1px 3px 5px;
+    list-style: none;
 
+}
+p a:hover{
+    background: #e9e9e9;
+    border-radius: 6px;
+    color: #c6b069 !important;
+    
+    // font-weight: 600;
+    // font-size: 12px !important;
+}
 .nav-menu ul {
     position: absolute;
     display: none;
     top: 100%;
-    right: -358%;
+    right: -275%;
     z-index: 99
 }
 
@@ -4115,3 +4123,37 @@ body.mobile-nav-active #mobile-nav-toggle {
 .mr-cstm{
     margin-right: 20px;
 }
+.hover-underline {
+    text-decoration: none;
+    color: #bbb;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.hover-underline::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: -5px;
+    width: 100%;
+    height: 1.4px;
+    background-color: #020202;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-underline:hover {
+    color: #fff; /* Change text color on hover */
+    
+}
+li a:hover {
+    font-weight: 600;
+    
+}
+
+.hover-underline:hover::after {
+    transform: scaleX(0.9);
+}
+
+  

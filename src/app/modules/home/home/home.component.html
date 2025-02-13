@@ -6,7 +6,7 @@
     <!-- <video class="w-100" playsinline="" autoplay="autoplay" loop="loop" muted="muted" class="fullscreen" style="display: block;" autoPlay="autoplay" loop="loop" muted>
         <source class="w-100" src="https://www.youtube.com/watch?v=JIxZJ1Ia11c" type="video/mp4" />
     </video> -->
-    <div style="position: relative; width: 100%;">
+    <div style="position: relative; width: 100%;" id="top">
         <iframe class="w-100" height="700" 
             src="https://www.youtube.com/embed/JIxZJ1Ia11c?autoplay=1&mute=1&playlist=JIxZJ1Ia11c&loop=1&controls=0"
             allow="autoplay"
@@ -47,17 +47,7 @@
 </section> -->
 <app-content-img [bim_outsourcing] = bim_outsourcing></app-content-img> 
 
-<!-- <div class="">
-    <div class="">
-        <h2><h4>BIM OUTSOURCINGARCHITECTURE</h4></h2>
-        <a href="#"></a>
-        <p>
-            Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself as creating a solid product.
-        </p>
-    </div>
-</div>	 -->
-
-<section class="service-area section-gap" style="padding: 80px 0px 50px 0px;" id="service">
+<section class="service-area section-gap" style="padding: 80px 0px 0px 0px;" id="service">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 pb-50 header-text text-center">
@@ -68,45 +58,75 @@
             </div>
         </div>						
         <div class="row mb-25px">
-            <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/ARCHITECTURE BIM SERVICE.png'" [heading]="'ARCHITECTURE BIM SERVICE'" [description]="'Architectural BIM Services create precise Revit, ArchiCAd models from sketches, scans, and PDFs, including custom content and 3D rendering,aligned with client`s SOW and LOD specifications.'"></app-cards>
+            <a [routerLink]="['/bim-modelling', 1]">
+                <app-cards
+                  [calledFrom]="'BIM OUTSOURCING SERVICE'"
+                  [col]="'three'"
+                  [imgPath]="'assets/homepage/ARCHITECTURE BIM SERVICE.png'"
+                  [heading]="'ARCHITECTURE BIM SERVICE'"
+                  [description]="'Architectural BIM Services create precise Revit, ArchiCAd models from sketches, scans, and PDFs, including custom content and 3D rendering, aligned with client`s SOW and LOD specifications.'"
+                ></app-cards>
+              </a>
 
-            <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/STRUCTURE BIM SERVICE.png'"
-            [heading]="'STRUCTURAL BIM SERVICE'" [description]="'Specializing in Structural BIM Services, we expedite fabrication and construction with Revit, ArchiCAD, AutoCAD modeling, offering precise shop drawings for steel and RCC, collaboration, and iterative design modifications.'"
-            ></app-cards>
-            <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/MEP BIM SERVICE.png'"
-            [heading]="'MEP BIM SERVICE'" [description]="'Creating 3D models and drafts in Revit, ArchiCAD for MEP-FP systems, developing Revit families for MEP-FP components, coordinating MEP-FP elements, generating shop drawings, schedules, and quantities.'"
-            ></app-cards>
+              <a [routerLink]="['/structure-bim-modelling', 5]">
+                  <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/STRUCTURE BIM SERVICE.png'"
+                  [heading]="'STRUCTURAL BIM SERVICE'" [description]="'Specializing in Structural BIM Services, we expedite fabrication and construction with Revit, ArchiCAD, AutoCAD modeling, offering precise shop drawings for steel and RCC, collaboration, and iterative design modifications.'"
+                  ></app-cards>
+              </a>
+
+              <a [routerLink]="['/mechanical-bim-modelling', 9]">
+                  <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/MEP BIM SERVICE.png'"
+                  [heading]="'MEP BIM SERVICE'" [description]="'Creating 3D models and drafts in Revit, ArchiCAD for MEP-FP systems, developing Revit families for MEP-FP components, coordinating MEP-FP elements, generating shop drawings, schedules, and quantities.'"
+                  ></app-cards>
+              </a>
         </div>
 
         
         
         <div class="row mb-25px">
-            <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'"  [imgPath]="'assets/homepage/REVIT FAMILY.png'" 
-            [heading]="'REVIT FAMILY CREATION'" [description]="'We specialize in comprehensive Parametric Revit Families, offering BIM objects for architectural, structural, HVAC, plumbing, electrical, and fire-fighting components.'"
-            ></app-cards>
-            <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/SCAN TO BIM.png'" 
-            [heading]="'DRAFTING SERVICES'" [description]="'We expertly convert CAD drawings to precise BIM models with Revit/Navisworks. PDF to BIM, CAD to BIM Modeling, Hand Sketch to BIM, Quantity Take-off budget Estimation.'"
-            ></app-cards>
-            <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/3D MODELLING.png'" 
-            [heading]="'SCAN TO BIM SERVICES'" [description]="'Precise Scan to BIM Services at LOD 500, creating detailed As-Built BIM Models of Architectural, Structural & MEPF. Built elevation, sections & plan view drawings and Quantity Take-off & Budget Estimation in 2D CAD Documentation.'"
-            ></app-cards>
+            <a [routerLink]="['/family-creation', 3]">
+                <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'"  [imgPath]="'assets/homepage/REVIT FAMILY.png'" 
+                [heading]="'REVIT FAMILY CREATION'" [description]="'We specialize in comprehensive Parametric Revit Families, offering BIM objects for architectural, structural, HVAC, plumbing, electrical, and fire-fighting components.'"
+                ></app-cards>
+            </a>
+                
+            <a [routerLink]="['/cad-documentation', 13]">
+                <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/SCAN TO BIM.png'" 
+                [heading]="'DRAFTING SERVICES'" [description]="'We expertly convert CAD drawings to precise BIM models with Revit/Navisworks. PDF to BIM, CAD to BIM Modeling, Hand Sketch to BIM, Quantity Take-off budget Estimation.'"
+                ></app-cards>
+            </a>
+            
+            <a [routerLink]="['/scan-to-bim', 21]">
+                <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/3D MODELLING.png'" 
+                [heading]="'SCAN TO BIM SERVICES'" [description]="'Precise Scan to BIM Services at LOD 500, creating detailed As-Built BIM Models of Architectural, Structural & MEPF. Built elevation, sections & plan view drawings and Quantity Take-off & Budget Estimation in 2D CAD Documentation.'"
+                ></app-cards>
+            </a>
         </div>
             
-            <div class="row mb-25px">
-                <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/3D MODELLING.png'"
-                [heading]="'3D MODELING'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"
-                ></app-cards>
-                <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/INTERIOR.png'"
-                [heading]="'INTERIOR DOCUMENTATION'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"
-                ></app-cards>
-                <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/RENDERING.png'"
-                [heading]="'3D RENDERING'" [description]="'Specializing in swift and cost-effective 3D rendering, We transform clients sketches, concepts, and plans into architectural visualizations with expertise in Lumion, Vray, and Enscape, catering to specific needs.'"
-                ></app-cards>
+            <div class="row ">
+                <a [routerLink]="['/3d-architectural-rendering', 25]">
+                
+                    <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/3D MODELLING.png'"
+                    [heading]="'3D MODELING'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"
+                    ></app-cards>
+                </a>
+                <a [routerLink]="['/bim-interior-modelling', 17]">
+                
+                    <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/INTERIOR.png'"
+                    [heading]="'INTERIOR DOCUMENTATION'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"
+                    ></app-cards>
+                </a>
+                <a [routerLink]="['/revit-bim-modelling', 29]">
+                
+                    <app-cards [calledFrom]="'BIM OUTSOURCING SERVICE'" [col]="'three'" [imgPath]="'assets/homepage/RENDERING.png'"
+                    [heading]="'3D RENDERING'" [description]="'Specializing in swift and cost-effective 3D rendering, We transform clients sketches, concepts, and plans into architectural visualizations with expertise in Lumion, Vray, and Enscape, catering to specific needs.'"
+                    ></app-cards>
+                </a>
             </div>
     </div>	
 </section>
 
-<section class="service-area section-gap" style="padding: 0px;" id="service">
+<section class="service-area mtb-50px"  id="service">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 pb-50 header-text text-center">
@@ -117,27 +137,51 @@
             </div>
         </div>						
         <div class="row mb-25px">
-            <app-cards [col]="'two'" [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/ARCHITECTURE.jpeg'" [heading]="'ARCHITECTURE BIM SERVICE'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'" ></app-cards>
-            <app-cards [col]="'two'"  [heading]="'STRUCTURAL BIM SERVICE'"  [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/structure.png'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'two'" [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/ARCHITECTURE.jpeg'" [heading]="'ARCHITECTURE BIM SERVICE'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'" ></app-cards>
+            </a>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'two'"  [heading]="'STRUCTURAL BIM SERVICE'"  [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/structure.png'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            </a>
         </div>
         
         <div class="row mb-25px">
-            <app-cards [col]="'two'" [calledFrom]="'our projects'" [heading]="'3REVIT FAMILY CREATION'" [imgPath]="'assets/homepage/FINAL/mep.png'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
-            <app-cards [col]="'two'" [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/mep.png'" [heading]="'MEP BIM SERVICE'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'two'" [calledFrom]="'our projects'" [heading]="'3REVIT FAMILY CREATION'" [imgPath]="'assets/homepage/FINAL/mep.png'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            </a>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'two'" [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/mep.png'" [heading]="'MEP BIM SERVICE'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            </a>
         </div>
             
         <div class="row mb-25px">
-            <app-cards [col]="'two'" [calledFrom]="'our projects'" [heading]="'3D MODELING'" [imgPath]="'assets/homepage/FINAL/3d modeling.jpeg'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
-            <app-cards [col]="'two'" [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/SCAN TO BIM.jpeg'"  [heading]="'SCAN TO BIM SERVICES'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'two'" [calledFrom]="'our projects'" [heading]="'3D MODELING'" [imgPath]="'assets/homepage/FINAL/3d modeling.jpeg'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            </a>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'two'" [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/SCAN TO BIM.jpeg'"  [heading]="'SCAN TO BIM SERVICES'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            </a>
         </div>
-        <div class="row mb-25px">
-            <app-cards [col]="'two'" [calledFrom]="'our projects'" [heading]="'INTERIOR DOCUMENTATION'" [imgPath]="'assets/homepage/FINAL/INTERIOR DOCUMENTATION.jpg'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
-            <app-cards [col]="'two'" [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/3d modeling.jpeg'"  [heading]="'3D RENDERING'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+        <div class="row ">
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'two'" [calledFrom]="'our projects'" [heading]="'INTERIOR DOCUMENTATION'" [imgPath]="'assets/homepage/FINAL/INTERIOR DOCUMENTATION.jpg'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            </a>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'two'" [calledFrom]="'our projects'" [imgPath]="'assets/homepage/FINAL/3d modeling.jpeg'"  [heading]="'3D RENDERING'" [description]="'We specialize in comprehensive interior design documentation, including detailed floor plans, elevations, sections, and joinery details.'"></app-cards>
+            </a>
         </div>
     </div>	
 </section>
 
-<section class="service-area section-gap" style="padding: 50px 0 70px 0;" id="service">
+<section class="service-area section-gap mtb-50px" id="service">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 pb-50 header-text text-center">
@@ -148,30 +192,48 @@
             </div>
         </div>						
         <div class="row mb-25px">
-            <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/quality_affordability.png'" [heading]="'QUALITY & AFFORDABILITY'" [description]="'Architectural BIM Services create precise Revit, ArchiCAd models from sketches, scans, and PDFs, including custom content and 3D rendering,aligned with client`s SOW and LOD specifications.'"></app-cards>
 
-            <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/QUICK TURN AROUND TIME.png'"
-            [heading]="'QUICK TURNAROUND TIME'" [description]="'Specializing in Structural BIM Services, we expedite fabrication and construction with Revit, ArchiCAD, AutoCAD modeling, offering precise shop drawings for steel and RCC, collaboration, and iterative design modifications.'"
-            ></app-cards>
-            <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/ADVANCE TECHNOLOGY.png'"
-            
-            [heading]="'ADVANCE TOOLS AND TECHNOLOGY'" [description]="'Creating 3D models and drafts in Revit, ArchiCAD for MEP-FP systems, developing Revit families for MEP-FP components, coordinating MEP-FP elements, generating shop drawings, schedules, and quantities.'"
-            ></app-cards>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/quality_affordability.png'" [heading]="'QUALITY & AFFORDABILITY'" [description]="'Architectural BIM Services create precise Revit, ArchiCAd models from sketches, scans, and PDFs, including custom content and 3D rendering,aligned with client`s SOW and LOD specifications.'"></app-cards>
+            </a>
+
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/QUICK TURN AROUND TIME.png'"
+                [heading]="'QUICK TURNAROUND TIME'" [description]="'Specializing in Structural BIM Services, we expedite fabrication and construction with Revit, ArchiCAD, AutoCAD modeling, offering precise shop drawings for steel and RCC, collaboration, and iterative design modifications.'"
+                ></app-cards>
+            </a>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/ADVANCE TECHNOLOGY.png'"
+                
+                [heading]="'ADVANCE TOOLS AND TECHNOLOGY'" [description]="'Creating 3D models and drafts in Revit, ArchiCAD for MEP-FP systems, developing Revit families for MEP-FP components, coordinating MEP-FP elements, generating shop drawings, schedules, and quantities.'"
+                ></app-cards>
+            </a>
         </div>
 
         
         
         <div class="row mb-25px">
-            <app-cards [col]="'three'"  [imgPath]="'assets/homepage/chooseus/EXPERT TEAM.png'" 
-            [heading]="'EXPERT TEAM'" [description]="'We specialize in comprehensive Parametric Revit Families, offering BIM objects for architectural, structural, HVAC, plumbing, electrical, and fire-fighting components.'"
-            ></app-cards>
-            
-            <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/CLIENT CENTRIC APPROCH.png'" 
-            [heading]="'CLIENT CENTRIC APPROCH'" [description]="'We expertly convert CAD drawings to precise BIM models with Revit/Navisworks. PDF to BIM, CAD to BIM Modeling, Hand Sketch to BIM, Quantity Take-off budget Estimation.'"
-            ></app-cards>
-            <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/VERSATILITY.png'" 
-            [heading]="'VERSATILITY'" [description]="'Precise Scan to BIM Services at LOD 500, creating detailed As-Built BIM Models of Architectural, Structural & MEPF. Built elevation, sections & plan view drawings and Quantity Take-off & Budget Estimation in 2D CAD Documentation.'"
-            ></app-cards>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'three'"  [imgPath]="'assets/homepage/chooseus/EXPERT TEAM.png'" 
+                [heading]="'EXPERT TEAM'" [description]="'We specialize in comprehensive Parametric Revit Families, offering BIM objects for architectural, structural, HVAC, plumbing, electrical, and fire-fighting components.'"
+                ></app-cards>
+            </a>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/CLIENT CENTRIC APPROCH.png'" 
+                [heading]="'CLIENT CENTRIC APPROCH'" [description]="'We expertly convert CAD drawings to precise BIM models with Revit/Navisworks. PDF to BIM, CAD to BIM Modeling, Hand Sketch to BIM, Quantity Take-off budget Estimation.'"
+                ></app-cards>
+            </a>
+            <a [routerLink]="['/bim-modelling', 1]">
+                
+                <app-cards [col]="'three'" [imgPath]="'assets/homepage/chooseus/VERSATILITY.png'" 
+                [heading]="'VERSATILITY'" [description]="' Precise Scan to BIM Services at LOD 500, creating detailed As-Built BIM Models of Architectural, Structural & MEPF. Built elevation, sections & plan view drawings and Quantity.'"
+                ></app-cards>
+            </a>
         </div>
             
             <!-- <div class="row mb-25px">
@@ -189,7 +251,8 @@
 </section>
 
 <!-- <section> -->
-    <div style="width: 100%;
+    <div class="mtb-50px">
+        <div class="" style="width: 100%;
     height: 60px;
     color: rgb(230 230 230);
     display: flex;
@@ -214,6 +277,8 @@
 
         </div>
     </div>
+    </div>
+    
 <!-- </section> -->
 
 <!-- <section class="gallery-area pb-120">
@@ -696,3 +761,7 @@
      background: url('/assets/newbg.gif') no-repeat center center fixed;
      background-size: cover;
  } -->
+
+ <app-footer>
+
+ </app-footer>

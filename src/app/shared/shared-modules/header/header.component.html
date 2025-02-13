@@ -36,10 +36,10 @@
         </div>
         <nav #hoverDiv id="nav-menu-container">
           <ul class="nav-menu">
-            <li class="menu-active"><a class="change-color" routerLink="/home">Home</a></li>
-            <li><a class="change-color" routerLink="/aboutus">About</a></li>
+            <li class="menu-active "><a class="change-color hover-underline" routerLink="/home">Home</a></li>
+            <li><a class="change-color hover-underline" routerLink="/aboutus">About</a></li>
             <li appHover class="menu-has-children">
-              <a class="change-color" [routerLink]="['/bim-modelling', 1]">Services</a>
+              <a class="change-color hover-underline" [routerLink]="['/bim-modelling', 1]">Services</a>
               <ul >
                 
                 <li>
@@ -150,14 +150,14 @@
                 
               </ul>
             </li>
-            <li><a class="change-color">Projects</a></li>
+            <li><a class="change-color hover-underline">Projects</a></li>
             <!-- <li appHover class="menu-has-children"><a >Blog</a>
               <ul>
                 <li><a >Blog Home</a></li>
                 <li><a >Blog Single</a></li>
               </ul>
             </li>	 -->
-            <li appHover class="menu-has-children"><a class="change-color" >Pages</a>
+            <li appHover class="menu-has-children "><a class="change-color hover-underline" >Pages</a>
               <ul>
                     <li><a >Project Details</a></li>		
                   <li><a >Elements</a></li>
@@ -169,7 +169,7 @@
                     </li>					                		
               </ul>
             </li>					          					          		          
-            <li><a class="change-color" routerLink="/contact">Contact</a></li>
+            <li><a class="change-color hover-underline" routerLink="/contact">Contact</a></li>
           </ul>
         </nav>
       </div>

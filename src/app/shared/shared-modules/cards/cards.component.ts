@@ -12,6 +12,7 @@ export class CardsComponent implements DoCheck {
   @Input() heading = "";
   @Input() description = "";
   @Input() calledFrom = "";
+  // @Input() routePath = "";
   
   // @Input() imgPath = "/assets/homepage/ARCHITECTURE BIM SERVICE.png";
   three = false;
