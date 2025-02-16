@@ -62,25 +62,25 @@
 <app-header></app-header>
 
 <!-- <p>our-services works!</p> -->
-<section class="banner-area relative" id="home">	
+<!-- <section class="banner-area relative" id="home">	
     <div class="overlay overlay-bg"></div>
     <div class="container">				
         <div class="row d-flex align-items-center justify-content-center">
             <div class="about-content col-lg-12">
-                <!-- <h1 class="text-white">
+                <h1 class="text-white">
                     Services				
                 </h1>	
-                <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="services.html"> Services</a></p> -->
+                <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="services.html"> Services</a></p>
             </div>	
         </div>
     </div>
-</section>
+</section> -->
 <!-- End banner Area -->
 
-<section class="bim-modeling-section">
+<section class="bim-modeling-section" style="padding-top: 125px;">
     <div class="container">
         <div class="">
-            <h5 class="services_heading ">  Services <span></span></h5>
+            <h5 class="services_heading ">  Services <span style="top: 3px;position: relative;"></span></h5>
         </div>
         <div class="content">
             <h1 class="fw-normal"> {{layoutData[0].view1heading}} </h1>
@@ -126,7 +126,7 @@
     </div>
   </div>
 
-  <div class="bim-modeling-section">
+  <!-- <div class="bim-modeling-section">
     <div class="img-text-layout-container-common container">
         <div class="img-text-layout-container-right-common">
             <img src="{{layoutData[0].view4img1}}" alt="BIM Model 1" class="bim-modeling-section-img-common">
@@ -142,16 +142,149 @@
         </div>
         
     </div>
-  </div>
+  </div> -->
+  <div class="bim-modeling-section container">
 
-  <div class="bim-modeling-section">
+  
+  <div class="scroll-effect-container">
+    <div class="scroll-effect-image-section">
+        <img style="height: 700px;width: 90%;" src="{{layoutData[0].view4img1}}" alt="Construction Worker">
+    </div>
+    <div *ngIf="layoutData[0].id == 21" class="text-section">
+        <!-- <h2>Pushing the AEC Industry Forward</h2>
+        <p>At the BIM Builders, we are passionate about driving value into every project we undertake...</p>
+        <p>More text goes here to create enough scrollable content...</p>
+        <p>Even more text to ensure scrolling happens...</p>
+
+        <h2>Pushing the AEC Industry Forward</h2> -->
+        <!-- <p>At the BIM Builders, we are passionate about driving value into every project we undertake...</p> -->
+        <div style="height: 200px;"></div>
+        <div class="img-text-layout-container-left-common">
+          <h2 class="img-text-layout-container-left-heading-common">
+               {{layoutData[0].view4heading}} 
+          </h2> 
+          <h5 class="img-text-layout-container-left-description-common">
+              {{layoutData[0].view4desc}} 
+          </h5>
+          <ul style="list-style: disc;">
+            <li *ngFor="let item of layoutData[0].view4BulletPoints">
+              {{item}}
+            </li>
+          </ul>
+        </div>
+
+        <div style="height: 200px;"></div>
+        <div class="img-text-layout-container-left-common">
+          <h2 class="img-text-layout-container-left-heading-common">
+               {{layoutData[0].movingforwardHeading2}} 
+          </h2>
+          <h5 class="img-text-layout-container-left-description-common">
+              {{layoutData[0].forwardDesc2}} 
+          </h5>
+          <ul style="list-style: disc;">
+            <li *ngFor="let item of layoutData[0].view4BulletPoints2">
+              {{item}}
+            </li>
+          </ul>
+          <h4>
+            {{layoutData[0].bottomLine}} 
+            
+          </h4>
+        </div>
+        
+        <div style="height: 200px;"></div>
+        <div class="img-text-layout-container-left-common">
+          <h2 class="img-text-layout-container-left-heading-common">
+               {{layoutData[0].movingforwardHeading3}} 
+          </h2>
+          <h5 class="img-text-layout-container-left-description-common">
+              {{layoutData[0].forwardDesc3}} 
+          </h5>
+          <ul style="list-style: disc;">
+            <li *ngFor="let item of layoutData[0].view4BulletPoints3">
+              {{item}}
+            </li>
+          </ul>
+         
+        </div>
+        
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- <div class="bim-modeling-section">
     <div class="similar-projects container">
         <div class="similar-projects">
-            <h1 class="mb-10 fw-normal"> {{layoutData[0].cardsHeading}}   </h1>
+            <h1 class="mb-10 fw-normal"> {{layoutData[0].cardsHeading}}  </h1>
         </div>
         <div class="similar-projects-img-container ">
+          <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                  <div class="card" style="width: 18rem; margin: 0 10px;">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 1</h5>
+                      <p class="card-text">This is the first card.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem; margin: 0 10px;">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 2</h5>
+                      <p class="card-text">This is the second card.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem; margin: 0 10px;">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 3</h5>
+                      <p class="card-text">This is the third card.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                  <div class="card" style="width: 18rem; margin: 0 10px;">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 4</h5>
+                      <p class="card-text">This is the fourth card.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem; margin: 0 10px;">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 5</h5>
+                      <p class="card-text">This is the fifth card.</p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem; margin: 0 10px;">
+                    <img src="https://via.placeholder.com/300" class="card-img-top" alt="Card Image">
+                    <div class="card-body">
+                      <h5 class="card-title">Card 6</h5>
+                      <p class="card-text">This is the sixth card.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          sepearator
             <div class="similar-proimg">
-                <img src="{{layoutData[0].view5img1}}" alt="BIM Model 1" class="similar-project-img w-100 custom-height-similar-projects br-8">
+                <img src="{{layoutData[0].cardImgrAray}}" alt="BIM Model 1" class="similar-project-img w-100 custom-height-similar-projects br-8">
                 <p class="mt-15 fs-20"> {{layoutData[0].cardsTitle1}}  </p>
             </div>
             <div class="similar-proimg">
@@ -167,11 +300,11 @@
             </div>
         </div>
     </div>
-  </div>
+  </div> -->
 
 
 
-  <div class="bim-modeling-section h300 build-project-bg-color position-relative">
+  <div class="bim-modeling-section h300 build-project-bg-color position-relative mt-80px">
     <div class="build-project-container position-absolute container">
        <div class="mb-18">
             <h1 class="build-together-text">
@@ -189,7 +322,9 @@
             </button>
        </div>
     </div>
+    
   </div>
-  <app-footer>
-
-  </app-footer>
+  <div style="height: 8px; background: orange;"></div>
+<app-oursoftware-expertise></app-oursoftware-expertise>
+  
+<app-footer></app-footer>

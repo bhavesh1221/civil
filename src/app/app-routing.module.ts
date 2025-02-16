@@ -8,12 +8,12 @@ const routes: Routes = [
  {
   path: 'home', component: HomeComponent,
  },
- {
-  path: 'contact' , component: ContactComponent
- },
- {
-  path: 'aboutus', component: AboutusComponent
- }
+//  {
+//   path: 'contact' , component: ContactComponent
+//  },
+//  {
+//   path: 'aboutus', component: AboutusComponent
+//  }
 ];
 
 @NgModule({

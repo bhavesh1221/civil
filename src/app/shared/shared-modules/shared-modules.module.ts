@@ -8,6 +8,7 @@ import { ContentImgComponent } from './content-img/content-img.component';
 import { CardsComponent } from './cards/cards.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
 import { FooterComponent } from '../components/footer/footer/footer.component';
+import { OursoftwareExpertiseComponent } from './oursoftware-expertise/oursoftware-expertise.component';
 
 
 @NgModule({
@@ -17,13 +18,16 @@ import { FooterComponent } from '../components/footer/footer/footer.component';
     ContentImgComponent,
     CardsComponent,
     ErrorpageComponent,
-    FooterComponent
+    FooterComponent,
+    OursoftwareExpertiseComponent,
+
   ],
   exports : [
     HeaderComponent,
     FooterComponent,
     ContentImgComponent,
-    CardsComponent
+    CardsComponent,
+    OursoftwareExpertiseComponent
   ],
   imports: [
     CommonModule,
