@@ -1,6 +1,6 @@
 @import url('../../home/home/home.component.scss');
 .bim-modeling-section {
-    padding: 50px;
+    padding-top: 80px;
   }
   
 //   .container {
@@ -73,6 +73,7 @@
   .img-text-layout-container-left-heading{
     font-size: 64px;
     font-weight: normal;
+    margin-bottom: 20px;
   }
   .img-text-layout-container-left-description{
     font-weight: normal;
@@ -82,13 +83,14 @@
     width: 50%;
   }
   .bim-modeling-section-img{
-    height: 600px;
+    height: 800px;
     width: 100%;
     // max-width: 100%;
     // height: auto;
   }
   .services-thrid-section-heading{
     font-weight: normal;
+    margin-bottom: 35px;
   }
   .services-thrid-section-img{
     width: 100%;
@@ -195,4 +197,38 @@
 }
 .fs-20{
     font-size: 20px;
+}
+
+.scroll-effect-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%; /* Ensure full width */
+  margin: auto;
+}
+
+.scroll-effect-image-section {
+  flex: 1;
+  position: sticky;
+  top: 20px; /* Keeps image sticky */
+  // height: 100vh; /* Keeps it visible */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.scroll-effect-image-section img {
+  height: auto;
+}
+.mt-80px{
+  margin-top: 80px;
+}
+.text-section {
+  flex: 1;
+  width: 100%; /* Fix: Allow it to expand fully */
+  max-width: 100%; /* Ensure no constraint */
+  padding-bottom: 150px;
+}
+
+.img-text-layout-container-left-common {
+  width: 100%; /* Ensure full width */
 }

@@ -36,7 +36,6 @@ export class HomeComponent {
       }
     } else if (scrollPosition < 100) {
       Array.from(aTags).forEach((element) => {
-        console.log(element);
         (element as HTMLElement).style.color = "black";
       });
       let header = document.getElementById("header");

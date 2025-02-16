@@ -701,8 +701,8 @@ export const data = [
     },
     {
         id:21,
-        view1heading: "STRUCTURAL BIM MODELING",
-        view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
+        view1heading: "SCAN TO BIM SERVICE",
+        view1desc: "Scan to BIM involves converting point cloud data obtained through 3D laser scanning or LiDAR technology into accurate, information-rich Building Information Models (BIM). These models capture the as-built conditions of a structure or site, providing detailed and precise data for architects, engineers, and contractors. We offer a comprehensive range of services in Scan to BIM, ensuring unparalleled accuracy, efficiency, and adherence to project requirements.",
         view2heading: "STRUCTURAL BIM Modeling",
         view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
         view3heading: "LOD (Level of Development) Modeling",
@@ -716,23 +716,53 @@ export const data = [
         view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
 
 
-        view4heading: "ARCHITECTURAL BIM MODELING:",
-        view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
-
-        movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
-        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
-        moving2Bullets1: "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
-        moving2Bullets2: "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
-        moving2Bullets3: "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
-        moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+        view4heading: "SCAN TO BIM SERVICES",
+        view4desc:"Scan to BIM involves converting point cloud data obtained through 3D laser scanning or LiDAR technology into accurate, information-rich Building Information Models (BIM). These models capture the as-built conditions of a structure or site, providing detailed and precise data for architects, engineers, and contractors.",
+        view4BulletPoints: [
+            'Point Cloud to 3D BIM Modeling: Transform raw point cloud data into intelligent 3D models using software like Revit, ArchiCAD, and AutoCAD. The models include architectural, structural, and MEP components.',
+            'Topography Modeling: Generate accurate terrain and landscape models for site analysis and design planning.',
+            'Architectural Modeling: Convert scan data into detailed 3D architectural models, including walls, doors, windows, and finishes.',
+            'Structural Modeling: Capture the structural integrity of buildings by creating detailed models of beams, columns, trusses, and load-bearing elements.',
+            'MEP (Mechanical, Electrical, Plumbing) Modeling: Generate precise MEP models to identify and resolve potential clashes during renovation or construction.',
+            'Clash Detection and Coordination: Analyze scanned data to identify potential clashes in design and ensure seamless integration between architectural, structural, and MEP models.'
+        ],
         
-        cardsHeading:"EXPLORE SIMILAR PROJECTS",
-        cardsTitle1:"FARMHOUSE PROJECT",
-        cardsTitle2:"CONTAINER PROJECT",
-        cardsTitle3:"HOTEL 90'S",
+
+
+        movingforwardHeading2: "LOD (Level of Development) Modeling:",
+        forwardDesc2:"We provide BIM models at varying Levels of Development (LOD), from conceptual design (LOD 100) to construction-ready detailing (LOD 500). This ensures that our models meet the specific requirements of every project phase.",
+        view4BulletPoints2: [
+            "LOD 100: Conceptual modeling for early design stages.",
+            "LOD 200: Schematic designs for structural elements.",
+            "LOD 300: Detailed design for construction documentation.",
+            "LOD 400: Fabrication-ready models for structural components.",
+            "LOD 500: As-built models for maintenance and operations.",
+        ],
+        // moving2Bullets1: "LOD 100: Conceptual modeling for early design stages.",
+        // moving2Bullets2: "LOD 200: Schematic designs for structural elements.",
+        // moving2Bullets3: "LOD 300: Detailed design for construction documentation.",
+        // moving2Bullets4:"LOD 400: Fabrication-ready models for structural components.",
+        // moving2Bullets5:"LOD 500: As-built models for maintenance and operations.",
+        bottomLine:"Value: By using LOD-based modeling, stakeholders can make informed decisions at every stage of the project.",
+
+        movingforwardHeading3: "AS-BUILT MODELING:",
+        forwardDesc3:"As-built models are digital representations of a building or structure as it exists post-construction. These models are developed using scan data and are used for renovations, retrofitting, and facility management.",
+        view4BulletPoints3: [
+            "Accurate As-Built Documentation: Deliver precise 2D drawings and 3D models that reflect the current state of a building. These include floor plans, elevations, and sections.",
+            "Facility Management Integration: Incorporate metadata and functional details into the model to assist facility managers in maintenance and operational tasks.",
+            "Renovation and Retrofit Models: Create models that help in planning and executing renovation or retrofit projects with minimal disruption.",
+            "Compliance and Permit Models: Provide detailed models for submission to regulatory authorities for permits and compliance checks.",
+        ],
+        // moving3Bullets1: "Accurate As-Built Documentation: Deliver precise 2D drawings and 3D models that reflect the current state of a building. These include floor plans, elevations, and sections.",
+        // moving3Bullets2: "Facility Management Integration: Incorporate metadata and functional details into the model to assist facility managers in maintenance and operational tasks.",
+        // moving3Bullets3: "Renovation and Retrofit Models: Create models that help in planning and executing renovation or retrofit projects with minimal disruption.",
+        // moving3Bullets4:"Compliance and Permit Models: Provide detailed models for submission to regulatory authorities for permits and compliance checks.",
+        
+        
+        cardsHeading:"Explore similar projects",
+        cardsTitle1:"HOTEL VLTANA",
+        cardsTitle2:"APARTMENT PROJECT",
+        cardsTitle3:"RESIDENTAIL PROJECT",
     },
     {
         id:22,
@@ -746,9 +776,14 @@ export const data = [
         view2img1: "assets/ourservices/FARMHOUSE/PLANVIEW.jpg",
         view3img1: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
         view4img1: "assets/ourservices/FARMHOUSE/joakim-nadell-K67sBVqLLuw-unsplash.jpg",
-        view5img1: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
-        view5img2: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
-        view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
+        cardImgrAray:[
+            "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
+            "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
+            "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
+        ],
+        // view5img1: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
+        // view5img2: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
+        // view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
 
 
         view4heading: "ARCHITECTURAL BIM MODELING:",
