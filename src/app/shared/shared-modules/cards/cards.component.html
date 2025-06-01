@@ -1,10 +1,6 @@
-<div [ngClass]="[
-one ? 'col-lg-12' : '',
-two ? 'col-lg-6' : '',
-three ? 'col-lg-4' : ''
-]" >
+<div  >
     <div class="single-service card">
-        <img style="border-radius: 8px;" [ngClass]="calledFrom == 'our projects'? 'w-100h-100per' : calledFrom == 'our projects'? 'w-160-h-100per' : '' "  src="{{imgPath}}" alt="img">
+        <img style="border-radius: 8px;" [ngClass]="calledFrom == 'our projects'? 'w-100h-100per' : calledFrom == 'BIM OUTSOURCING SERVICE'? 'w-160-h-100per' : '' "  src="{{imgPath}}" alt="img">
         <!-- <a  [routerLink]="'/bim-modelling'"> -->
             <h4 style="margin-top: 15px; margin-bottom: 15px;" > {{heading}} </h4>
         <!-- </a> -->

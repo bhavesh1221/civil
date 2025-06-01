@@ -1,4 +1,4 @@
-import { Component,DoCheck,Input, SimpleChanges } from '@angular/core';
+import { AfterViewInit, Component,DoCheck,Input, SimpleChanges } from '@angular/core';
 import { withDebugTracing } from '@angular/router';
 
 @Component({
@@ -6,7 +6,8 @@ import { withDebugTracing } from '@angular/router';
   templateUrl: './cards.component.html',
   styleUrls: ['./cards.component.scss']
 })
-export class CardsComponent implements DoCheck {
+export class CardsComponent implements DoCheck, AfterViewInit {
+  
   @Input() col = "";
   @Input() imgPath = "";
   @Input() heading = "";
@@ -21,7 +22,12 @@ export class CardsComponent implements DoCheck {
 
 
   ngOnInit() {
+    //
+  }
 
+  ngAfterViewInit(): void {
+    // debugger;
+    // console.log("afterviewinit");  
     if(this.col == 'three'){
       this.three = true;
     }

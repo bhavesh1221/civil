@@ -83,8 +83,23 @@
             <h5 class="services_heading ">  Services <span style="top: 3px;position: relative;"></span></h5>
         </div>
         <div class="content">
-            <h1 class="fw-normal"> {{layoutData[0].view1heading}} </h1>
-            <div class="custom-width">
+          <div class="">
+            <h1 class="fw-normal mb-12 services_heading"> {{layoutData[0].view1heading}}
+              <span style="top: 17px;
+              position: relative;
+              left: -365px;
+              width: 355px;"></span>
+            </h1>
+            <div class="">
+              <ul class="d-flex justify-content-between mb-12" >
+                <li class="">
+                  ARCHITECTURE BIM MODELING
+                </li>
+                <li class="">ARCHITECTURE BIM MODELING</li>
+                <li class="">thARCHITECTURE BIM MODELINGird</li>
+                <li class="">ARCHITECTURE BIM MODELING</li>
+              </ul>
+            </div>
                 <p class="description">
                     {{layoutData[0].view1desc}}
                 </p>
@@ -119,8 +134,8 @@
         <div >
             <h1 class="services-thrid-section-heading">  {{layoutData[0].view3heading}} </h1>
         </div>
-        <div class="">
-          <img src="{{layoutData[0].view3img1}}" alt="BIM Model 1" class="services-thrid-section-img">
+        <div class="img-cont image-wrapper">
+          <img src="{{layoutData[0].view3img1}}" alt="BIM Model 1" class="services-thrid-section-img img-zoomin">
 
         </div>
     </div>
@@ -150,7 +165,7 @@
     <div class="scroll-effect-image-section">
         <img style="height: 700px;width: 90%;" src="{{layoutData[0].view4img1}}" alt="Construction Worker">
     </div>
-    <div *ngIf="layoutData[0].id == 21" class="text-section">
+    <div  class="text-section">
         <!-- <h2>Pushing the AEC Industry Forward</h2>
         <p>At the BIM Builders, we are passionate about driving value into every project we undertake...</p>
         <p>More text goes here to create enough scrollable content...</p>
