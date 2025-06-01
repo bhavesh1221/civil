@@ -1,3 +1,14 @@
 .mtb-50px {
     padding: 80px 0px 0px 0px;
 }
+// .w-100{
+//     width: 100%;
+// }
+.h-40px{
+    height: 40px;
+}
+@media screen and (max-width: 768px) {
+    .resp-soft-exp{
+        display: none;
+    }    
+}

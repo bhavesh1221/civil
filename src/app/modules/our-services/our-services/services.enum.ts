@@ -1,19 +1,22 @@
 export const data = [
     {
         id:1,
-        view1heading: "ARCHITECTURAL BIM MODELING",
+        services_subheading: [
+            "ARCHITECTURAL BIM MODELING","BIM DOCUMENTATION SERVICE","REVIT FAMILY CREATION",
+        ],
+        view1heading: "ARCHITECTURAL BIM SERVICE",
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Architectural BIM Services that redefine the way architecture meets technology. Our approachfocuses on creating intelligent, data-rich 3D models that streamline the design, documentation, and execution of architectural projects, ensuring unmatched precision and efficiency can bring your vision to life.",
         view2heading: "Delivering integrated BIM services to build lasting success",
         view2desc: "When you partner with the BIM builders, you not only get innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our relentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "FARMHOUSE PROJECT",
-        view1img1: "assets/ourservices/FARMHOUSE/Floor plan 3d view.jpg",
-        view1img2: "assets/ourservices/FARMHOUSE/2 - 3D View - {3D - swapnilugalmugale2803}.jpg",
-        view2img1: "assets/ourservices/FARMHOUSE/PLANVIEW.jpg",
-        view3img1: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
-        view4img1: "assets/ourservices/FARMHOUSE/joakim-nadell-K67sBVqLLuw-unsplash.jpg",
-        view5img1: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
-        view5img2: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
-        view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
+        view1img1: "assets/ourservices/bim_modelling/1.jpg",
+        view1img2: "assets/ourservices/bim_modelling/2.jpg",
+        view2img1: "assets/ourservices/bim_modelling/3.jpg",
+        view3img1: "assets/ourservices/bim_modelling/4.jpg",
+        view4img1: "assets/ourservices/bim_modelling/joakim-nadell-K67sBVqLLuw-unsplash.jpg",
+        view5img1: "assets/ourservices/bim_modelling/1.jpg",
+        view5img2: "assets/ourservices/bim_modelling/1.jpg",
+        view5img3: "assets/ourservices/bim_modelling/1.jpg",
 
 
         view4heading: "ARCHITECTURAL BIM MODELING:",

@@ -30,7 +30,7 @@ export class HomeComponent {
       });
       let header = document.getElementById("header");
       if (header) {
-        header.classList.add("");
+        // header.classList.add("");
         // header.classList.remove("white-bg");
         
       }

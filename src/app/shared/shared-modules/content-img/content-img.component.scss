@@ -73,6 +73,9 @@
 border-top-right-radius: 12px;
   
 }
+.rounded-8px{
+  border-radius: 8px !important;
+}
 
 .card__info-hover {
     position: absolute;
@@ -158,4 +161,12 @@ border-bottom-right-radius: 12px;
 
 .card:hover .card__info-hover {
     opacity: 1;
+}
+@media screen and (max-width: 991px)  {
+  .content-img-resp{
+    width: 100%;
+  }
+  .dwnld-btn-resp{
+    margin-bottom: 20px
+  }
 }
