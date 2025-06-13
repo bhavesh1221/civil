@@ -84,20 +84,16 @@
         </div>
         <div class="content">
           <div class="">
-            <h1 class="fw-normal mb-12 services_heading"> {{layoutData[0].view1heading}}
-              <span style="top: 17px;
-              position: relative;
-              left: -365px;
-              width: 355px;"></span>
-            </h1>
+            <div style="position: relative;">
+              <h1  class="fw-normal mb-12 services_heading"> {{layoutData[0].view1heading}}
+                <span  [style.width.px]="spanWidth" style="top: 30px;position: relative;left: 0px; position: absolute;"></span>
+              </h1>
+            </div>
             <div class="">
-              <ul class="d-flex justify-content-between mb-12" >
-                <li class="">
-                  ARCHITECTURE BIM MODELING
+              <ul class="d-flex justify-content-between mb-12 services-upper" >
+                <li *ngFor="let item of this.layoutData[0].innerServices" class="">
+                  {{ item }}
                 </li>
-                <li class="">ARCHITECTURE BIM MODELING</li>
-                <li class="">thARCHITECTURE BIM MODELINGird</li>
-                <li class="">ARCHITECTURE BIM MODELING</li>
               </ul>
             </div>
                 <p class="description">

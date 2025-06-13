@@ -4,6 +4,9 @@ export const data = [
         services_subheading: [
             "ARCHITECTURAL BIM MODELING","BIM DOCUMENTATION SERVICE","REVIT FAMILY CREATION",
         ],
+        innerServices: [
+            'ARCHITECTURE BIM MODELING', 'BIM DOCUMENTATION SERVICE','REVIT FAMILY CREATION', 'LANDSCAPE MODELING'
+        ],
         view1heading: "ARCHITECTURAL BIM SERVICE",
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Architectural BIM Services that redefine the way architecture meets technology. Our approachfocuses on creating intelligent, data-rich 3D models that streamline the design, documentation, and execution of architectural projects, ensuring unmatched precision and efficiency can bring your vision to life.",
         view2heading: "Delivering integrated BIM services to build lasting success",
@@ -145,6 +148,12 @@ export const data = [
     {
         id:5,
         view1heading: "STRUCTURAL BIM MODELING",
+        innerServices: [
+            "STRUCTURE BIM MODELING",
+"STEEL STRUCTURE MODELING",
+ "REBAR DETAILING & MODELING"
+,"CLASH DETECTION"
+        ],
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
         view2heading: "STRUCTURAL BIM Modeling",
         view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
@@ -284,7 +293,13 @@ export const data = [
     },
     {
         id:9,
-        view1heading: "STRUCTURAL BIM MODELING",
+        innerServices:[
+            "MECHANICAL BIM MODELING",
+            "ELECTRICAL BIM MODELING",
+            "PLUMBING BIM MODELING",
+            "MEP DOCUMENTATION",
+        ],
+        view1heading: "MECHANICAL BIM MODELLING",
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
         view2heading: "STRUCTURAL BIM Modeling",
         view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
@@ -424,7 +439,13 @@ export const data = [
     },
     {
         id:13,
-        view1heading: "STRUCTURAL BIM MODELING",
+        innerServices: [
+            "CAD DOCUMENTATION SERVICE",
+            "CAD DETAILING SERVICE",
+            "PDF TO CAD CONVERSION",
+            "PERMIT SETS & ADU DRAWINGS"
+        ],
+        view1heading: "DRAFTING SERVICES",
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
         view2heading: "STRUCTURAL BIM Modeling",
         view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
@@ -564,7 +585,13 @@ export const data = [
     },
     {
         id:17,
-        view1heading: "STRUCTURAL BIM MODELING",
+        view1heading: "INTERIOR DOCUMENTATION",
+        innerServices:[
+            "BIM INTERIOR MODELING",
+            "INTERIOR DESIGN DOCUMENTATION",
+            "JOINERY DESIGN & DETAILS",
+            "QUANTITY TAKE-OFF"
+        ],
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
         view2heading: "STRUCTURAL BIM Modeling",
         view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
@@ -704,7 +731,13 @@ export const data = [
     },
     {
         id:21,
-        view1heading: "SCAN TO BIM SERVICE",
+        innerServices: [
+            "SCAN TO BIM",
+            "SCAN TO CAD",
+            "SCAN TO BIM STRUCTURE & MEP",
+            "AS-BUILT BIM MODEL",
+        ],
+        view1heading: "3D VISUALIZATION",
         view1desc: "Scan to BIM involves converting point cloud data obtained through 3D laser scanning or LiDAR technology into accurate, information-rich Building Information Models (BIM). These models capture the as-built conditions of a structure or site, providing detailed and precise data for architects, engineers, and contractors. We offer a comprehensive range of services in Scan to BIM, ensuring unparalleled accuracy, efficiency, and adherence to project requirements.",
         view2heading: "STRUCTURAL BIM Modeling",
         view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
@@ -879,6 +912,12 @@ export const data = [
     },
     {
         id:25,
+        innerServices:[
+            "3D ARCHITECTURAL RENDERING",
+            "ANIMATION & WALKTHROUGH",
+            "INTERIOR RENDERING",
+            "VIRTUAL REALITY VISUALIZATION"
+        ],
         view1heading: "STRUCTURAL BIM MODELING",
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
         view2heading: "STRUCTURAL BIM Modeling",
@@ -1019,7 +1058,14 @@ export const data = [
     },
     {
         id:29,
-        view1heading: "STRUCTURAL BIM MODELING",
+        innerServices:[
+            "REVIT BIM MODELING",
+            "ARCHICAD BIM MODELING",
+            "SKETCHUP MODELING",
+            "VECTORWORKS MODELING",
+            "CHIEF ARCHITECT MODELIN"
+        ],
+        view1heading: "3D MODELING",
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
         view2heading: "STRUCTURAL BIM Modeling",
         view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",

@@ -21,12 +21,29 @@ export class OurServicesComponent implements OnInit {
 
   currentIndex = 0;
   intervalId: any;
+  spanWidth = 0;
   constructor(private route: ActivatedRoute){}
+  
   ngOnInit(): void {
     this.itemId = this.route.snapshot.paramMap.get('id');
     this.layoutData = data.filter(item => item.id == this.itemId);
     this.startAutoSlide();
+    // imp code to find out length of words to put underline on service heading
+    const getTextWidth = (text:string,font:string) => {
+       let canvas = document.createElement('canvas');
+       let context = canvas.getContext('2d');
+        if (!context) {
+          console.error("2D context is not supported or failed to initialize.");
+          return;
+        }
+       context.font = font;
+       let metrics = context.measureText(text);
+       this.spanWidth = metrics.width;
+       console.log(this.spanWidth);
+     }
+    getTextWidth(this.layoutData[0].view1heading, "24px system-ui");
   }
+
   ngOnDestroy() {
     this.stopAutoSlide();
   }
