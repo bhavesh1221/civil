@@ -40,31 +40,41 @@
             <li><a class="change-color hover-underline" routerLink="/aboutus">About</a></li>
             <li appHover class="menu-has-children">
               <a class="change-color hover-underline" [routerLink]="['/bim-modelling', 1]">Services</a>
-              <ul >
+              <ul style="padding: 22px;">
                 
                 <li>
                   <div>
-                    <div style="display: flex; gap: 42px;">
+                    <div style="display: flex; gap: 60px; margin-bottom: 8px;">
                       <div class="nav-services">
-                        <p><a [routerLink]="['/bim-modelling', 1]"><b>ARCHITECTURE BIM SERVICE</b></a></p>
-                        <p>
+                        <p class="main-services">
+                          <a class="anchor-customcss" [routerLink]="['/bim-modelling', 1]">
+                          
+                          <b>
+                            ARCHITECTURE BIM SERVICE
+                            
+                          </b>
+                        
+                        </a>
+                        
+                      </p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/bim-modelling', 1]"> -->
                             ARCHITECTURE BIM MODELING
                           <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/documentation-service', 2]" href=""> -->
                           BIM DOCUMENTATION SERVICE
 
                         <!-- </a> -->
                       </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/family-creation', 3]" href=""> -->
                           REVIT FAMILY CREATION
 
                         <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a href=""> -->
                           LANDSCAPE MODELING
 
@@ -73,31 +83,31 @@
                       </div>
                   
                       <div class="nav-services">
-                        <p>
-                          <a [routerLink]="['/structure-bim-modelling', 5]" href="#">
+                        <p class="main-services">
+                          <a class="anchor-customcss" [routerLink]="['/structure-bim-modelling', 5]" href="#">
                           <b>STRUCTURAL BIM SERVICE</b>
                         </a>
                         </p>
                           
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/structure-bim-modelling', 5]" href="#"> -->
                           STRUCTURE BIM MODELING
 
                         <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/steel-structure-modelling', 6]" href="#"> -->
                           STEEL STRUCTURE MODELING
 
                         <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/rebar-detailing', 7]" href=""> -->
                           REBAR DETAILING & MODELING
 
                         <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/clash-detection', 8]" href=""> -->
                           CLASH DETECTION
 
@@ -106,26 +116,28 @@
                       </div>
                   
                       <div class="nav-services">
-                        <p><b>  <a [routerLink]="['/mechanical-bim-modelling', 9]" href="#">MEP BIM SERVICE </a>   </b></p>
-                        <p>
-                         
-                          MECHANICAL BIM MODELING
+                        <p class="main-services">
+                          <a class="anchor-customcss" [routerLink]="['/mechanical-bim-modelling', 9]" href="#">
+                        <b>MEP BIM SERVICE</b>  
+                        </a>  
 
-                       
                         </p>
-                        <p>
+                        <p class="sub-services">
+                          MECHANICAL BIM MODELING
+                        </p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/electrical-bim-modelling', 10]" href="#"> -->
                           ELECTRICAL BIM MODELING
 
                         <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/plumbing-bim-modelling', 11]" href=""> -->
                           PLUMBING BIM MODELING
 
                         <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/mep-documentation', 12]" href=""> -->
                           MEP DOCUMENTATION
 
@@ -134,31 +146,31 @@
                       </div>
                   
                       <div class="nav-services">
-                        <p><b>
-                          <a [routerLink]="['/cad-documentation', 13]" href="#">
-                          DRAFTING SERVICES
+                        <p class="main-services">
+                          <a class="anchor-customcss" [routerLink]="['/cad-documentation', 13]" href="#">
+                          <b>DRAFTING SERVICES</b>
                         </a>
 
-                        </b></p>
-                        <p>
+                        </p>
+                        <p class="sub-services">
                           
                           CAD DOCUMENTATION SERVICE
 
                        
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/cad-detailing', 14]" href="#"> -->
                           CAD DETAILING SERVICE
 
                         <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/pdf-to-cad', 15]" href=""> -->
                           PDF TO CAD CONVERSION
 
                         <!-- </a> -->
                         </p>
-                        <p>
+                        <p class="sub-services">
                           <!-- <a [routerLink]="['/permit-sets', 16]" href=""> -->
                           PERMIT SETS & ADU DRAWINGS
 
@@ -167,123 +179,131 @@
                       </div>
                     </div>
                   
-                    <div style="display: flex; gap: 42px;">
+                    <div style="display: flex; gap: 60px;">
                       <div class="nav-services">
-                        <p><b>
-                          <!-- <a [routerLink]="['/bim-interior-modelling', 17]"> -->
-                          INTERIOR DOCUMENTATION
-                        <!-- </a> -->
+                        <p class="main-services">
+                          <a class="anchor-customcss" [routerLink]="['/bim-interior-modelling', 17]">
+                          <b>INTERIOR DOCUMENTATION</b>
+                        </a>
 
-                        </b></p>
-                        <p>
+                        </p>
+                        <p class="sub-services">
                          <!-- <a  href="#"> -->
                             BIM INTERIOR MODELING
                          <!-- </a> -->
                          
                         </p>
-                        <p>
-                          <a [routerLink]="['/interior-documentation', 18]" href="#">
+                        <p class="sub-services">
+                          <!-- <a [routerLink]="['/interior-documentation', 18]" href="#"> -->
                           INTERIOR DESIGN DOCUMENTATION
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a [routerLink]="['/joinery-design', 19]" href="">
+                        <p class="sub-services">
+                          <!-- <a [routerLink]="['/joinery-design', 19]" href=""> -->
                           JOINERY DESIGN & DETAILS
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a [routerLink]="['/quantity-takeoff', 20]" href="">
+                        <p class="sub-services">
+                          <!-- <a [routerLink]="['/quantity-takeoff', 20]" href=""> -->
                           QUANTITY TAKE-OFF
 
-                        </a>
+                        <!-- </a> -->
                         </p>
                       </div>
                   
                       <div class="nav-services">
-                        <p><b> <a [routerLink]="['/scan-to-bim', 21]" href="#">SCAN TO BIM SERVICES</a></b></p>
-                        <p>
+                        <p class="main-services"> <a class="anchor-customcss" [routerLink]="['/scan-to-bim', 21]" href="#">
+                          <b>SCAN TO BIM SERVICES</b>
+                        </a></p>
+                        <p class="sub-services">
                          
                           SCAN TO BIM
 
                        
                         </p>
-                        <p>
-                          <a [routerLink]="['/scan-to-cad', 22]" href="#">
+                        <p class="sub-services">
+                          <!-- <a [routerLink]="['/scan-to-cad', 22]" href="#"> -->
                           SCAN TO CAD
 
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a [routerLink]="['/scan-to-structure-mep', 23]" href="">
+                        <p class="sub-services">
+                          <!-- <a [routerLink]="['/scan-to-structure-mep', 23]" href=""> -->
                           SCAN TO BIM STRUCTURE & MEP
 
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a [routerLink]="['/as-built-bim', 24]" href="">
+                        <p class="sub-services">
+                          <!-- <a [routerLink]="['/as-built-bim', 24]" href=""> -->
                           AS-BUILT BIM MODEL
 
-                        </a>
+                        <!-- </a> -->
                         </p>
                       </div>
                   
                       <div class="nav-services">
-                        <p><b> <a [routerLink]="['/3d-architectural-rendering', 25]" href="#">3D VISUALIZATION</a></b></p>
-                        <p>
+                        <p class="main-services"> <a class="anchor-customcss" [routerLink]="['/3d-architectural-rendering', 25]" href="#">
+                          <b>
+                            3D VISUALIZATION
+                          </b>
+                        </a></p>
+                        <p class="sub-services" class="sub-services">
                          
-                          3D ARCHITECTURAL RENDERING
+                            3D ARCHITECTURAL RENDERING
 
                         
                         </p>
-                        <p>
-                          <a [routerLink]="['/animation-walkthrough', 26]" href="#">
+                        <p class="sub-services" class="sub-services">
+                          <!-- <a [routerLink]="['/animation-walkthrough', 26]" href="#"> -->
                           ANIMATION & WALKTHROUGH
 
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a [routerLink]="['/interior-rendering', 27]" href="">
+                        <p class="sub-services" class="sub-services">
+                          <!-- <a [routerLink]="['/interior-rendering', 27]" href=""> -->
                           INTERIOR RENDERING
 
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a [routerLink]="['/vr-visualization', 28]" href="">
+                        <p class="sub-services" class="sub-services">
+                          <!-- <a [routerLink]="['/vr-visualization', 28]" href=""> -->
                           VIRTUAL REALITY VISUALIZATION
 
-                        </a>
+                        <!-- </a> -->
                         </p>
                       </div>
                   
-                      <div class="nav-services mr-cstm">
-                        <p><b><a [routerLink]="['/revit-bim-modelling', 29]" href="#">3D MODELING</a></b></p>
-                        <p>
+                      <div class="nav-services ">
+                        <p class="main-services"><a class="anchor-customcss" [routerLink]="['/revit-bim-modelling', 29]" href="#">
+                          <b>3D MODELING</b>
+                        </a></p>
+                        <p class="sub-services">
                           
                           REVIT BIM MODELING
 
                         </p>
-                        <p>
-                          <a  href="#">
+                        <p class="sub-services">
+                          <!-- <a  href="#"> -->
                           ARCHICAD BIM MODELING
 
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a  href="">
+                        <p class="sub-services">
+                          <!-- <a  href=""> -->
                           SKETCHUP MODELING
 
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a  href="">
+                        <p class="sub-services">
+                          <!-- <a  href=""> -->
                           VECTORWORKS MODELING
 
-                        </a>
+                        <!-- </a> -->
                         </p>
-                        <p>
-                          <a  href="">
+                        <p class="sub-services">
+                          <!-- <a  href=""> -->
                           CHIEF ARCHITECT MODELING
-                        </a>
+                        <!-- </a> -->
                         </p>
                       </div>
                     </div>
