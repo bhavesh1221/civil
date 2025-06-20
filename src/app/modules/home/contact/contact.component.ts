@@ -1,5 +1,5 @@
 // import { Component } from '@angular/core';
-import { AfterViewInit, Component, NgZone } from '@angular/core';
+import { AfterViewInit, Component, NgZone, OnInit } from '@angular/core';
 import * as am5 from '@amcharts/amcharts5';
 import * as am5map from '@amcharts/amcharts5/map';
 import am5geodata_worldLow from "@amcharts/amcharts5-geodata/worldLow";
@@ -10,10 +10,16 @@ import am5geodata_worldLow from "@amcharts/amcharts5-geodata/worldLow";
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent {
+export class ContactComponent implements OnInit {
   files: File[] = [];
   isDragOver: boolean = false;
+  zoom = 12;
+  center: google.maps.LatLngLiteral = { lat: 22.7196, lng: 75.8577 }; // Indore
   constructor(private zone: NgZone) {}
+  ngOnInit() {
+      
+  }
+
   onFileChange(event: Event): void {
     const input = event.target as HTMLInputElement;
     if (input.files) {
@@ -80,7 +86,7 @@ export class ContactComponent {
       // Custom highlighted countries
       polygonSeries.mapPolygons.template.adapters.add("fill", (fill, target) => {
         let id = (target.dataItem?.dataContext as { id?: string })?.id;
-        if (["IN", "AE", "GB", "US"].includes(id || '')) {
+        if (["IN", "AE"].includes(id || '')) {
           return am5.color(0xff5733); // Your highlight color
         }
         return fill;
