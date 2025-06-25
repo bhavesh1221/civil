@@ -31,8 +31,9 @@
   }
   
   .social .icons img {
-    width: 24px;
+    width: 35px;
     margin-right: 10px;
+    border-radius: 4px;
   }
   
   .review-box {
@@ -131,4 +132,10 @@
   .main-services{
         font-size: 14px;
       }
+      .mr-35px{
+        margin-right: 35px;
+      }
   
+.br-20{
+  border-radius: 20px;
+}
