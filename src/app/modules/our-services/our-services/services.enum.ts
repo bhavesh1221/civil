@@ -7,10 +7,10 @@ export const data = [
         innerServices: [
             'ARCHITECTURE BIM MODELING', 'BIM DOCUMENTATION SERVICE','REVIT FAMILY CREATION', 'LANDSCAPE MODELING'
         ],
-        view1heading: "ARCHITECTURAL BIM SERVICE",
-        view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Architectural BIM Services that redefine the way architecture meets technology. Our approachfocuses on creating intelligent, data-rich 3D models that streamline the design, documentation, and execution of architectural projects, ensuring unmatched precision and efficiency can bring your vision to life.",
+        view1heading: "ARCHITECTURAL BIM MODELING",
+        view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Architectural BIM Services that redefine the way architecture meets technology. Our approach focuses on creating intelligent, data-rich 3D models that streamline the design, documentation, and execution of architectural projects, ensuring unmatched precision and efficiency can bring your vision to life.",
         view2heading: "Delivering integrated BIM services to build lasting success",
-        view2desc: "When you partner with the BIM builders, you not only get innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our relentless focus on success leads to smarter more collaborative building practices.",
+        view2desc: "When you partner with the BiM builders, you not only got innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "FARMHOUSE PROJECT",
         view1img1: "assets/ourservices/bim_modelling/1.jpg",
         view1img2: "assets/ourservices/bim_modelling/2.jpg",
@@ -24,16 +24,38 @@ export const data = [
 
         view4heading: "ARCHITECTURAL BIM MODELING:",
         view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+        view4BulletPoints:[
+            "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
+            "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
+            "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION.",
+
+        ],
+       
 
         movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
-        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
-        moving2Bullets1: "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
-        moving2Bullets2: "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
-        moving2Bullets3: "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
-        moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OUR MODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
+        view4BulletPoints2:[ 
+         "LOD 100: CONCEPTUAL MODELING FOR EARLY DESIGN STAGES.",
+         "LOD 200: SCHEMATIC DESIGNS FOR STRUCTURAL ELEMENTS",
+         "LOD 300: DETAILED DESIGN FOR CONSTRUCTION DOCUMENTATION.",
+         "LOD 400: FABRICATION-READY MODELS FOR STRUCTURAL COMPONENTS.",
+         "LOD 500: AS-BUILT MODELS FOR MAINTENANCE AND OPERATIONS.",
+         "VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+
+        ],
+        
+
+
+        movingforwardHeading3: "CAD TO BIM CONVERSION:",
+        forwardDesc3:"WE CONVERT LEGACY 2D CAD DRAWINGS INTO INTELLIGENT 3D BIM MODELS, ENSURING ENHANCED ACCURACY AND EFFICIENCY. THIS SERVICE IS IDEAL FOR CLIENTS TRANSITIONING TO BIM WORKFLOWS OR UPDATING OLDER PROJECTS..",
+        view4BulletPoints3:[ 
+            "QUICK TRANSITION: SPEED UP THE PROCESS OF MIGRATING FROM TRADITIONAL DRAFTING TO MODERN BIM WORKFLOWS.",
+            "DATA ENRICHMENT: ADD PARAMETRIC DATA TO EXISTING DESIGNS FOR IMPROVED PROJECT INSIGHTS.",
+            "COMPLIANCE: ENSURE ALIGNMENT WITH LOCAL AND INTERNATIONAL BIM STANDARDS.",
+        ],
+       
+       
+        
         
         cardsHeading:"EXPLORE SIMILAR PROJECTS",
         cardsTitle1:"FARMHOUSE PROJECT",
@@ -44,8 +66,8 @@ export const data = [
         id:2,
         view1heading: "STRUCTURAL BIM MODELING",
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
-        view2heading: "STRUCTURAL BIM Modeling",
-        view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
+        view2heading: "Delivering integrated BIM services to build lasting success",
+        view2desc: "When you partner with the BiM builders, you not only got innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices",
         view3heading: "LOD (Level of Development) Modeling",
         view1img1: "assets/ourservices/FARMHOUSE/Floor plan 3d view.jpg",
         view1img2: "assets/ourservices/FARMHOUSE/2 - 3D View - {3D - swapnilugalmugale2803}.jpg",
@@ -57,11 +79,12 @@ export const data = [
         view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
 
 
-        view4heading: "ARCHITECTURAL BIM MODELING:",
-        view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+        view4heading: "STRUCTURAL BIM MODELING",
+        view4desc:"OUR STRUCTURAL BIM MODELING SERVICES FOCUS ON CREATING DETAILED, DATA-RICH, AND 3D STRUCTURAL MODELS TAILORED TO YOUR PROJECT REQUIREMENTS. WHETHER YOU NEED STRUCTURAL STEEL, CONCRETE, TIMBER, OR COMPOSITE DESIGNS, OUR EXPERT TEAM ENSURES PRECISION IN:",
+        movingBullets1: "DEVELOPING 30 MODELS FOR BEAMS, COLUMNS, SLABS, FOUNDATIONS, TRUSSES, AND WALLS",
+        movingBullets2: "CLASH DETECTION AND RESOLUTION TO IDENTIFY AND ADDRESS POTENTIAL CONFLICTS",
+        movingBullets3: "INTEGRATION OF ARCHITECTURAL AND MEP SYSTEMS TO DELIVER A COORDINATED DESIGN",
+         movingBullets4: "SUPPORTING ACCURATE QUANTITY TAKE-OFFS, SCHEDULES, AND COST ESTIMATION.",
 
         movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
         forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
@@ -147,16 +170,17 @@ export const data = [
     },
     {
         id:5,
-        view1heading: "STRUCTURAL BIM MODELING",
+      
         innerServices: [
             "STRUCTURE BIM MODELING",
             "STEEL STRUCTURE MODELING",
             "REBAR DETAILING & MODELING"
             ,"CLASH DETECTION"
         ],
+        view1heading: "STRUCTURAL BIM MODELING",
         view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
-        view2heading: "STRUCTURAL BIM Modeling",
-        view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
+        view2heading: "Delivering integrated BIM services to build lasting success",
+        view2desc: "When you partner with the BiM builders, you not only got innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "LOD (Level of Development) Modeling",
         view1img1: "assets/ourservices/STRUCTURE BIM MODELING/1.jpg",
         view1img2: "assets/ourservices/STRUCTURE BIM MODELING/2.jpg",
@@ -168,20 +192,53 @@ export const data = [
         view5img2: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
         view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
 
+        // movingforwardHeading3: "AS-BUILT MODELING:",
+        // forwardDesc3:"As-built models are digital representations of a building or structure as it exists post-construction. These models are developed using scan data and are used for renovations, retrofitting, and facility management.",
+        // view4BulletPoints3: [
+        //     "Accurate As-Built Documentation: Deliver precise 2D drawings and 3D models that reflect the current state of a building. These include floor plans, elevations, and sections.",
+        //     "Facility Management Integration: Incorporate metadata and functional details into the model to assist facility managers in maintenance and operational tasks.",
+        //     "Renovation and Retrofit Models: Create models that help in planning and executing renovation or retrofit projects with minimal disruption.",
+        //     "Compliance and Permit Models: Provide detailed models for submission to regulatory authorities for permits and compliance checks.",
+        // ],
 
-        view4heading: "ARCHITECTURAL BIM MODELING:",
-        view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+
+        view4heading: "STRUCTURAL BIM MODELING:",
+        view4desc:"OUR STRUCTURAL BIM MODELING SERVICES FOCUS ON CREATING DETAILED, DATA-RICH, AND 3D STRUCTURAL MODELS TAILORED TO YOUR PROJECT REQUIREMENTS. WHETHER YOU NEED STRUCTURAL STEEL, CONCRETE, TIMBER, OR COMPOSITE DESIGNS, OUR EXPERT TEAM ENSURES PRECISION IN:",
+        view4BulletPoints:[
+            "DEVELOPING 3D MODELS FOR BEAMS, COLUMNS, SLABS, FOUNDATIONS, TRUSSES, AND WALLS.",
+             "CLASH DETECTION AND RESOLUTION TO IDENTIFY AND ADDRESS POTENTIAL CONFLICTS.",
+             "INTEGRATION OF ARCHITECTURAL AND MEP SYSTEMS TO DELIVER A COORDINATED DESIGN.",
+             "SUPPORTING ACCURATE QUANTITY TAKE-OFFS, SCHEDULES, AND COST ESTIMATION.",
+
+        ],
+        // movingBullets1: 
+        // movingBullets2:
+        // movingBullets3: 
+        // movingBullets4: 
 
         movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
-        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
-        moving2Bullets1: "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
-        moving2Bullets2: "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
-        moving2Bullets3: "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
-        moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
-        
+        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OUR MODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
+        view4BulletPoints2:[
+        "LOD 100: CONCEPTUAL MODELING FOR EARLY DESIGN STAGES.",
+        "LOD 200: SCHEMATIC DESIGNS FOR STRUCTURAL ELEMENTS",
+        "LOD 300: DETAILED DESIGN FOR CONSTRUCTION DOCUMENTATION.",
+        "LOD 400: FABRICATION-READY MODELS FOR STRUCTURAL COMPONENTS.",
+        "LOD 500: AS-BUILT MODELS FOR MAINTENANCE AND OPERATIONS.",
+        "VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+        ],
+
+        movingforwardHeading3: "REBAR MODELING & BBS:",
+        forwardDesc3:"OUR REBAR MODELING & BBS SERVICES FOCUS ON DELIVERING REINFORCED CONCRETE DETAILING AND BAR BENDING SCHEDULES FOR PRECISE EXECUTION. WE SPECIALIZE IN:",
+
+        view4BulletPoints3:[
+        "DEVELOPING 3D REBAR LAYOUTS FOR BEAMS, SLABS, COLUMNS, AND FOUNDATIONS.",
+        "ENSURING COMPLIANCE WITH REGIONAL CODES AND STANDARDS.",
+        "PROVIDING CLEAR REINFORCEMENT DETAILS TO AVOID ON-SITE ERRORS.",
+        "GENERATING ACCURATE REINFORCEMENT QUANTITY REPORTS.",
+        "DETAILED BBS FOR REINFORCEMENT, SPECIFYING BAR TYPE, SIZE, SHAPE, AND QUANTITY.",
+        "REDUCTION IN MATERIAL WASTAGE AND INCREASED COST-EFFICIENCY.",
+        ],
+
         cardsHeading:"EXPLORE SIMILAR PROJECTS",
         cardsTitle1:"FARMHOUSE PROJECT",
         cardsTitle2:"CONTAINER PROJECT",
@@ -300,16 +357,16 @@ export const data = [
             "PLUMBING BIM MODELING",
             "MEP DOCUMENTATION",
         ],
-        view1heading: "MECHANICAL BIM MODELLING",
-        view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
-        view2heading: "STRUCTURAL BIM Modeling",
-        view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
+        view1heading: "MEP BIM MODELLING",
+        view1desc: "At The Zenith Visions, we excel in providing state-of-the-art MEP BIM Services, revolutionizing how mechanical, electrical, and plumbing systems integrate with technology. Our expertise lies in creating intelligent, data-enriched 3D models that optimize design coordination, documentation, and execution processes. With a focus on precision and efficiency, we ensure seamless integration of MEP systems, bringing your vision to reality with unparalleled accuracy and innovation.",
+        view2heading: "Delivering integrated BIM services to build lasting success",
+        view2desc: "When you partner with the BiM builders, you not only got innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "LOD (Level of Development) Modeling",
         view1img1: "assets/ourservices/MEP/1.jpg",
         view1img2: "assets/ourservices/MEP/2.jpg",
         view2img1: "assets/ourservices/MEP/3.jpg",
         view3img1: "assets/ourservices/MEP/4.jpg",
-        view4img1: "assets/ourservices/MEP/5.jpg",
+        view4img1: "assets/ourservices/MEP/5.jpg",  
         view5img1: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
         view5img2: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
         view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
@@ -317,16 +374,22 @@ export const data = [
 
         view4heading: "ARCHITECTURAL BIM MODELING:",
         view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+        view4BulletPoints: [
+            "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
+            "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
+            "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+        ],
 
         movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
         forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
-        moving2Bullets1: "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
-        moving2Bullets2: "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
-        moving2Bullets3: "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
-        moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+        view4BulletPoints2:[
+            "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
+        "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
+        "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
+        "VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+
+        ],
+        
         
         cardsHeading:"EXPLORE SIMILAR PROJECTS",
         cardsTitle1:"FARMHOUSE PROJECT",
@@ -447,9 +510,9 @@ export const data = [
             "PERMIT SETS & ADU DRAWINGS"
         ],
         view1heading: "DRAFTING SERVICES",
-        view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
-        view2heading: "STRUCTURAL BIM Modeling",
-        view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
+        view1desc: "At The Zenith Visions, we pride ourselves on delivering precise and high-quality drafting services tailored to meet the needs of architects, engineers, contractors, and designers. Whether you need detailed CAD drafting, permit set documentation, or interior design documentation, our team of experts is committed to exceeding expectations. Here's an in-depth look at our drafting services:",
+        view2heading: "Delivering integrated BIM services to build lasting success",
+        view2desc: "When you partner with the BiM builders, you not only got innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "LOD (Level of Development) Modeling",
         view1img1: "assets/ourservices/DRAFTING/1.jpg",
         view1img2: "assets/ourservices/DRAFTING/2.jpg",
@@ -461,19 +524,46 @@ export const data = [
         view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
 
 
-        view4heading: "ARCHITECTURAL BIM MODELING:",
-        view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+        view4heading: "CAD DRAFTING SERVICES",
+        view4desc:"CAD DRAFTING FORMS THE BACKBONE OF MODERN CONSTRUCTION AND DESIGN WORKFLOWS. OUR TEAM SPECIALIZES IN CREATING HIGHLY ACCURATE AND DETAILED CAD DRAWINGS TO BRING YOUR VISIONS TO LIFE.",
+        view4BulletPoints:[
+            "ARCHITECTURAL CAD DRAFTING: FLOOR PLANS, ELEVATIONS, SECTIONS, AND ROOF PLANS TAILORED TO YOUR DESIGN SPECIFICATIONS.",
+        "STRUCTURAL CAD DRAFTING: REINFORCEMENT DETAILS, FRAMING PLANS, AND STRUCTURAL LAYOUTS.",
+        "MECHANICAL, ELECTRICAL, AND PLUMBING (MEP) CAD DRAFTING: DETAILED SCHEMATICS FOR HVAC, ELECTRICAL, AND PLUMBING SYSTEMS.",
+        "PDF/HAND SKETCH TO CAD: TRANSFORM ROUGH SKETCHES OR EXISTING PDFS INTO PRECISE, EDITABLE CAD FILES.",
+            "AS-BUILT DRAWINGS: REFLECTING THE EXACT SPECIFICATIONS OF COMPLETED STRUCTURES FOR FUTURE REFERENCE.",
 
-        movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
-        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
-        moving2Bullets1: "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
-        moving2Bullets2: "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
-        moving2Bullets3: "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
-        moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+
+        ],
         
+
+
+
+        movingforwardHeading2: "PERMIT SET DOCUMENTATION",
+        forwardDesc2:"OBTAINING CONSTRUCTION PERMITS REQUIRES THOROUGH AND CODE-COMPLIANT DOCUMENTATION. WE SIMPLIFY THIS PROCESS BY DELIVERING HIGH-QUALITY PERMIT SETS THAT MEET ALL REGULATORY REQUIREMENTS.",
+        view4BulletPoints2: [
+             "CODE COMPLIANCE: WE ENSURE YOUR DRAWINGS MEET LOCAL BUILDING CODES AND ZONING REGULATIONS.",
+        "SITE PLANS: DETAILED LAYOUTS HIGHLIGHTING BOUNDARIES, UTILITIES, AND ENVIRONMENTAL CONSIDERATIONS.",
+        "ELEVATION AND SECTION VIEWS: HIGHLIGHTING KEY STRUCTURAL AND DESIGN ELEMENTS FOR APPROVAL.",
+        "DETAILED ANNOTATIONS: CLEAR LABELS AND DIMENSIONS TO AVOID AMBIGUITY DURING REVIEWS.",
+        "REVISIONS AND RESUBMISSIONS: FAST TURNAROUND FOR REVISIONS AS PER AUTHORITY FEEDBACK",
+
+
+        ],
+        
+         movingforwardHeading3: "INTERIOR DESIGN DOCUMENTATION",
+        forwardDesc3:"INTERIOR DESIGN IS WHERE CREATIVITY MEETS TECHNICAL PRECISION. OUR DOCUMENTATION SERVICES ENSURE THAT YOUR DESIGN CONCEPTS TRANSLATE SEAMLESSLY INTO BUILDABLE PLANS.",
+
+        view4BulletPoints3:[
+            "DETAILED FLOOR PLANS: HIGHLIGHT FURNITURE LAYOUTS, ROOM DIMENSIONS, AND TRAFFIC FLOW.",
+        "REFLECTED CEILING PLANS (RCP): FOR LIGHTING, HVAC, AND CEILING DESIGN COORDINATION.",
+         "MATERIAL AND FINISH SCHEDULES: SPECIFYING COLORS, TEXTURES, AND MATERIALS FOR EVERY SURFACE.",
+        "CUSTOM MILLWORK AND JOINERY DETAILS: ACCURATE SHOP DRAWINGS FOR CABINETRY AND FURNITURE.",
+         "3D INTERIOR MODELS AND VISUALIZATIONS: OFFERING A REALISTIC VIEW OF YOUR DESIGNS BEFORE IMPLEMENTATION",
+        
+
+        ],
+       
         cardsHeading:"EXPLORE SIMILAR PROJECTS",
         cardsTitle1:"FARMHOUSE PROJECT",
         cardsTitle2:"CONTAINER PROJECT",
@@ -593,9 +683,9 @@ export const data = [
             "JOINERY DESIGN & DETAILS",
             "QUANTITY TAKE-OFF"
         ],
-        view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
-        view2heading: "STRUCTURAL BIM Modeling",
-        view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
+        view1desc: "Interior documentation is a critical part of the design and construction process, ensuring accurate translation of design intent into executable plans. At The Zenith Visions, we specialize in delivering comprehensive interior documentation services that cater to the highest standards of quality and precision.",
+        view2heading: "Delivering integrated BIM services to build lasting success",
+        view2desc: "When you partner with the BiM builders, you not only got innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "LOD (Level of Development) Modeling",
         view1img1: "assets/ourservices/INTERIOR DOCUMENTATION/1.jpg",
         view1img2: "assets/ourservices/INTERIOR DOCUMENTATION/2.jpg",
@@ -607,18 +697,41 @@ export const data = [
         view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
 
 
-        view4heading: "ARCHITECTURAL BIM MODELING:",
-        view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+        view4heading: "BIM INTERIOR DOCUMENTATION",
+        view4desc:"BUILDING INFORMATION MODELING (BIM) FOR INTERIORS INTEGRATES 3D MODELING WITH DATA-RICH DOCUMENTATION TO CREATE HIGHLY DETAILED AND EFFICIENT DESIGN PLANS",
+        view4BulletPoints:[
 
-        movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
-        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
-        moving2Bullets1: "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
-        moving2Bullets2: "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
-        moving2Bullets3: "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
-        moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+            "3D INTERIOR MODELS USING REVIT, CAPTURING INTRICATE DESIGN ELEMENTS LIKE LIGHTING, FURNITURE, AND MATERIAL FINISHES",
+            "CLASH DETECTION FOR SEAMLESS INTEGRATION OF ARCHITECTURAL, STRUCTURAL, AND MEP COMPONENTS.",
+            "AS-BUILT DOCUMENTATION FOR EXISTING SPACES, ENSURING ACCURATE RENOVATION PLANS.",
+            "COMPREHENSIVE SCHEDULES FOR MATERIALS, FIXTURES, AND EQUIPMENT.",
+
+
+        ],
+       
+
+        movingforwardHeading2: "INTERIOR ELEVATIONS",
+        forwardDesc2:"INTERIOR ELEVATIONS PROVIDE A CLEAR, SCALED DEPICTION OF VERTICAL SURFACES, DETAILING ELEMENTS SUCH AS WALL FINISHES, CABINETRY, SHELVING, FIXTURES, AND FITTINGS.",
+
+        view4BulletPoints2:[
+
+            "SCALED DRAWINGS SHOWCASING WALL TREATMENTS, DIMENSIONS, AND MATERIAL SPECIFICATIONS.",
+        "PRECISE REPRESENTATIONS OF WINDOWS, DOORS, MOLDINGS, AND BUILT-INS.",
+        "ROOM-SPECIFIC ELEVATION DRAWINGS, SUCH AS KITCHENS, BATHROOMS, AND LIVING AREAS, TO AID IN INSTALLATION AND VISUALIZATION",
+        ],
+
+
+       
+        
+         movingforwardHeading3: "JOINERY DETAILS",
+        forwardDesc3:"JOINERY DETAILS ARE ESSENTIAL FOR CUSTOM FURNITURE AND BUILT-IN ELEMENTS, ENSURING PRECISION IN FABRICATION AND ASSEMBLY.",
+        view4BulletPoints3:[
+            "DETAILED DRAWINGS FOR CABINETRY, MILLWORK, AND BESPOKE FURNITURE.",
+        "SPECIFICATIONS FOR JOINTS, MATERIALS, AND FINISHES.",
+       "SOLUTIONS FOR SPACE OPTIMIZATION, FUNCTIONALITY, AND AESTHETICS.",
+
+        ],
+         
         
         cardsHeading:"EXPLORE SIMILAR PROJECTS",
         cardsTitle1:"FARMHOUSE PROJECT",
@@ -738,10 +851,10 @@ export const data = [
             "SCAN TO BIM STRUCTURE & MEP",
             "AS-BUILT BIM MODEL",
         ],
-        view1heading: "3D VISUALIZATION",
+        view1heading: "SCAN TO BIM SERVICE",
         view1desc: "Scan to BIM involves converting point cloud data obtained through 3D laser scanning or LiDAR technology into accurate, information-rich Building Information Models (BIM). These models capture the as-built conditions of a structure or site, providing detailed and precise data for architects, engineers, and contractors. We offer a comprehensive range of services in Scan to BIM, ensuring unparalleled accuracy, efficiency, and adherence to project requirements.",
-        view2heading: "STRUCTURAL BIM Modeling",
-        view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
+        view2heading: "Delivering integrated BIM services to build lasting success",
+        view2desc: "When you partner with the BIM builders, you not only got Innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "LOD (Level of Development) Modeling",
         view1img1: "assets/ourservices/SCAN TO BIM/1.jpg",
         view1img2: "assets/ourservices/SCAN TO BIM/2.jpg",
@@ -919,10 +1032,10 @@ export const data = [
             "INTERIOR RENDERING",
             "VIRTUAL REALITY VISUALIZATION"
         ],
-        view1heading: "STRUCTURAL BIM MODELING",
-        view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
-        view2heading: "STRUCTURAL BIM Modeling",
-        view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
+        view1heading: "3D VISUALIZATION",
+        view1desc: "We specialize in providing cutting-edge 3D visualization services that bring architectural, interior, and conceptual designs to life. Using advanced tools like Revit, Lumion, Enscape, Twinmotion, and SketchUp, we deliver stunning visuals that help our clients visualize their ideas with unparalleled accuracy and realism.",
+        view2heading: "Delivering integrated BIM services to build lasting success",
+        view2desc: "When you partner with the BiM builders, you not only got innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "LOD (Level of Development) Modeling",
         view1img1: "assets/ourservices/3D VISUALIZATION/1.jpg",
         view1img2: "assets/ourservices/3D VISUALIZATION/2.jpg",
@@ -934,18 +1047,41 @@ export const data = [
         view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
 
 
-        view4heading: "ARCHITECTURAL BIM MODELING:",
-        view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+        view4heading: "3D ARCHITECTURAL RENDERING",
+        view4desc:"OUR 3D ARCHITECTURAL RENDERING SERVICES CREATE PHOTOREALISTIC IMAGES OF BUILDING EXTERIORS AND LANDSCAPES.",
+        view4BulletPoints:[
+        "REALISTIC EXTERIOR VIEWS OF RESIDENTIAL, COMMERCIAL, AND INDUSTRIAL BUILDINGS.",
+       "INCLUSION OF ENVIRONMENTAL ELEMENTS LIKE LANDSCAPING, LIGHTING, SHADOWS, AND WEATHER EFFECTS.",
+       "SUPPORT FOR ALL ARCHITECTURAL STYLES, FROM TRADITIONAL TO CONTEMPORARY.",
+       "DETAILED FACADE VIEWS, MATERIALS, TEXTURES, AND FINISHES.",
+        ],
 
-        movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
-        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
-        moving2Bullets1: "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
-        moving2Bullets2: "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
-        moving2Bullets3: "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
-        moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+        movingforwardHeading2: "ANIMATION & WALKTHROUGH",
+        forwardDesc2:"WE CREATE DYNAMIC ANIMATIONS AND WALKTHROUGHS THAT ALLOW CLIENTS TO EXPLORE THEIR DESIGNS VIRTUALLY.",
+        view4BulletPoints2:[
+        "3D WALKTHROUGHS SHOWCASING ROOM-BY-ROOM NAVIGATION.",
+       "SMOOTH FLY-THROUGH ANIMATIONS OF BUILDING EXTERIORS AND INTERIORS.",
+        "ANIMATED SEQUENCES OF DAY-NIGHT LIGHTING EFFECTS.",
+       "INTEGRATION OF REAL-LIFE SURROUNDINGS AND ENVIRONMENTS FOR CONTEXT.",
+        ],
+
+        movingforwardHeading3: "INTERIOR RENDERING",
+        forwardDesc3:"OUR INTERIOR RENDERING SERVICES BRING INDOOR SPACES TO LIFE WITH REALISTIC TEXTURES, LIGHTING, AND MATERIALS.",
+        view4BulletPoints3:[
+       "HIGH-RESOLUTION RENDERS OF INTERIORS, INCLUDING RESIDENTIAL, COMMERCIAL, AND OFFICE SPACES.",
+         "PHOTOREALISTIC FINISHES FOR FURNITURE, DECOR, AND FIXTURES.",
+         "ACCURATE MATERIAL AND TEXTURE APPLICATION BASED ON DESIGN SPECIFICATIONS.",
+       "MOOD-SPECIFIC LIGHTING EFFECTS, INCLUDING NATURAL AND ARTIFICIAL LIGHTING.",
+        ],
+       
+         movingforwardHeading4: "VIRTUAL REALITY VISUALIZATION",
+        forwardDesc4:"VIRTUAL TOURS OF PROPERTIES USING VR-COMPATIBLE MODELS.",
+        view4BulletPoints4:[
+        "INTERACTIVE 3D SPACES FOR REAL-TIME DESIGN EXPLORATION.",
+       "VR INTEGRATIONS FOR MOBILE AND DESKTOP PLATFORMS.",
+        "SUPPORT FOR HEADSETS LIKE OCULUS RIFT AND HTC VIVE.",
+        ],
+        
         
         cardsHeading:"EXPLORE SIMILAR PROJECTS",
         cardsTitle1:"FARMHOUSE PROJECT",
@@ -1067,9 +1203,9 @@ export const data = [
             "CHIEF ARCHITECT MODELIN"
         ],
         view1heading: "3D MODELING",
-        view1desc: "At The Zenith Visions, we specialize in delivering cutting-edge Structural BIM Services that revolutionize how structural design integrates with advanced technology. Our approach focuses on developing intelligent, data-rich 3D models that optimize the analysis, design, and documentation processes. By seamlessly integrating structural integrity with precision and efficiency, we ensure every project is executed to perfection, bringing your vision to life with unparalleled expertise.",
-        view2heading: "STRUCTURAL BIM Modeling",
-        view2desc: "Our Structural BIM modeling services focus on creating detailed, data-rich, and 3D structural models tailored to your project requirements. Whether you need structural steel, concrete, timber, or composite designs, our expert team ensures precision in:Developing 3D models for beams, columns, slabs, foundations, trusses, and walls.Clash detection and resolution to identify and address potential conflicts.Integration of architectural and MEP systems to deliver a coordinated design.Supporting accurate quantity take-offs, schedules, and cost estimation.",
+        view1desc: "Welcome to The Zenith Visions, where innovation meets precision in 3D modeling. Our comprehensive range of 3D modeling services is tailored to architects, designers, engineers, and contractors who seek accuracy, efficiency,and cutting-edge visualizations.",
+        view2heading: "Delivering integrated BIM services to build lasting success",
+        view2desc: "When you partner with the BiM builders,  you not only got innovative BIM solutions, you get our fully vested team and a commitment to doing things right. Our nelentless focus on success leads to smarter more collaborative building practices.",
         view3heading: "LOD (Level of Development) Modeling",
         view1img1: "assets/ourservices/3D_modelling/1.jpg",
         view1img2: "assets/ourservices/3D_modelling/2.jpg",
@@ -1081,18 +1217,50 @@ export const data = [
         view5img3: "assets/ourservices/FARMHOUSE/BIRDS EYE VIEW.jpg",
 
 
-        view4heading: "ARCHITECTURAL BIM MODELING:",
-        view4desc:"WE SPECIALIZE IN CREATING DETAILED 3D MODELS FOR ARCHITECTURAL PROJECTS USING BUILDING INFORMATION MODELING (BIM) SOFTWARE LIKE REVIT, ARCHICAD, AND SKETCHUP. OUR BIM MODELS INCORPORATE PRECISE GEOMETRY, ACCURATE BUILDING DATA, AND COMPREHENSIVE DOCUMENTATION FOR ALL PHASES OF CONSTRUCTION.",
-        movingBullets1: "COMPREHENSIVE 3D VISUALIZATION: EXPLORE DESIGNS IN A REALISTIC AND INTERACTIVE 3D ENVIRONMENT.",
-        movingBullets2: "DESIGN COORDINATION: ENSURE SEAMLESS COLLABORATION AMONG ARCHITECTS, ENGINEERS, AND CONTRACTORS.",
-        movingBullets3: "ERROR DETECTION: MINIMIZE CONSTRUCTION ERRORS THROUGH CLASH DETECTION AND CONFLICT RESOLUTION",
+        view4heading: "REVIT BIM MODELING",
+        view4desc:"OUR EXPERTISE IN REVIT BIM (BUILDING INFORMATION MODELING) GOES BEYOND TRADITIONAL 3D MODELING.",
+        view4BulletPoints:[
+        "ARCHITECTURAL MODELING: FROM CONCEPTUAL DESIGNS TO DETAILED FLOOR PLANS, WE CREATE PRECISE REVIT MODELS TAILORED TO YOUR PROJECT.",
+        "MEP MODELING: ACCURATE REPRESENTATION OF MECHANICAL, ELECTRICAL, AND PLUMBING SYSTEMS FOR SEAMLESSCOORDINATION.",
+        "STRUCTURAL MODELING: DETAILED ANALYSIS AND MODELING OF LOAD-BEARING COMPONENTS, ENSURING STRUCTURAL INTEGRITY.",
+       "SCAN TO BIM: CONVERTING POINT CLOUD DATA INTO ACCURATE REVIT BIM MODELS, IDEAL FOR RENOVATIONS OR AS-BUILT DOCUMENTATION.",
+        ],
 
-        movingforwardHeading2: "LOD (LEVEL OF DEVELOPMENT) MODELING:",
-        forwardDesc2:"WE PROVIDE BIM MODELS AT VARYING LEVELS OF DEVELOPMENT (LOD), FROM CONCEPTUAL DESIGN (LOD 100) TO CONSTRUCTION-READY DETAILING (LOD 500). THIS ENSURES THAT OURMODELS MEET THE SPECIFIC REQUIREMENTS OF EVERY PROJECT PHASE.",
-        moving2Bullets1: "LOD 100-200: SUITABLE FOR EARLY DESIGN AND SCHEMATIC DEVELOPMENT.",
-        moving2Bullets2: "LOD 300-400: INCLUDES PRECISE DETAILING FOR CONSTRUCTION DOCUMENTATION AND FABRICATION.",
-        moving2Bullets3: "LOD 500: AS-BUILT MODELS FOR OPERATIONS AND MAINTENANCE",
-        moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+        movingforwardHeading2: "ARCHICAD BIM MODELING",
+        forwardDesc2:"ARCHICAD COMBINES AESTHETICS WITH FUNCTIONALITY. OUR ARCHICAD SERVICES INCLUDE:",
+        view4BulletPoints2:[
+        "ARCHITECTURAL AND STRUCTURAL BIM MODELING: DETAILED AND SCALABLE MODELS FOR EFFICIENT PROJECT EXECUTION.",
+       "CONSTRUCTION DOCUMENTATION: COMPREHENSIVE CD/DD SETS FOR PERMITS AND APPROVALS.",
+        "3D  VISUALIZATIONS: HIGH-QUALITY, PHOTOREALISTIC RENDERINGS FOR PRESENTATIONS AND MARKETING.",
+        ],
+        // moving2Bullets4:"VALUE: BY USING LOD-BASED MODELING, STAKEHOLDERS CAN MAKE INFORMED DECISIONS AT EVERY STAGE OF THE PROJECT.",
+
+        movingforwardHeading3: "VECTORWORKS MODELING",
+        forwardDesc3:"VECTORWORKS IS IDEAL FOR PROJECTS REQUIRING A BLEND OF CAD AND BIM WORKFLOWS.",
+        view4BulletPoints3:
+        [
+
+       "ARCHITECTURAL BIM: 3D MODELS TAILORED TO DESIGN AND CONSTRUCTION NEEDS.",
+        "SITE MODELING: ACCURATE TERRAIN AND LANDSCAPING MODELS.",
+      "LIGHTING AND RENDERING: ENHANCED VISUALS FOR PRESENTATIONS AND PLANNING.",
+        ],
+
+        movingforwardHeading4: "SKETCHUP MODELING",
+        forwardDesc4:"SKETCHUP IS A VERSATILE TOOL FOR CONCEPTUALIZATION AND VISUALIZATION.",
+        view4BulletPoints4:
+        [
+       "CONCEPTUAL 3D MODELING: TURNING IDEAS INTO 3D VISUALS FOR QUICK ITERATIONS AND CLIENT APPROVALS.",
+       "DETAILED MODELING: FROM FURNITURE DESIGN TO COMPLEX STRUCTURES, WE PROVIDE PRECISE SKETCHUP MODELS.",
+       "RENDER-READY MODELS: CREATING MODELS READY FOR LUMION, ENSCAPE,  OR V-RAY RENDERING.",
+        ],
+
+        movingforwardHeading5: "CHIEF ARCHITECT MODELING",
+        forwardDesc5:"CHIEF ARCHITECT IS PERFECT FOR RESIDENTIAL AND LIGHT COMMERCIAL DESIGN.",
+        view4BulletPoints5:[
+       "INTERIOR AND EXTERIOR MODELING: DETAILED DESIGNS FOR KITCHENS, BATHROOMS, AND ENTIRE HOMES.",
+      "MATERIAL AND TEXTURE APPLICATION: REALISTIC FINISHES AND MATERIAL CALLOUTS.",
+        "CONSTRUCTION DOCUMENTATION: PERMIT-READY PLANS AND DETAILED DRAWINGS.",
+        ],
         
         cardsHeading:"EXPLORE SIMILAR PROJECTS",
         cardsTitle1:"FARMHOUSE PROJECT",
