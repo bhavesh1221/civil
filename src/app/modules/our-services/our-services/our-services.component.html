@@ -218,7 +218,41 @@
           </ul>
          
         </div>
-        
+        <div style="height: 200px;"></div>
+        <div class="img-text-layout-container-left-common">
+          <h2 class="img-text-layout-container-left-heading-common">
+               {{layoutData[0].movingforwardHeading4}} 
+          </h2>
+          <h5 class="img-text-layout-container-left-description-common">
+              {{layoutData[0].forwardDesc4}} 
+          </h5>
+          <ul style="list-style: disc;">
+            <li *ngFor="let item of layoutData[0].view4BulletPoints4">
+              {{item}}
+            </li>
+          </ul>
+          
+
+          <div style="height: 200px;"></div>
+        <div class="img-text-layout-container-left-common">
+          <h2 class="img-text-layout-container-left-heading-common">
+               {{layoutData[0].movingforwardHeading5}} 
+          </h2>
+          <h5 class="img-text-layout-container-left-description-common">
+              {{layoutData[0].forwardDesc5}} 
+          </h5>
+          <ul style="list-style: disc;">
+            <li *ngFor="let item of layoutData[0].view4BulletPoints5">
+              {{item}}
+            </li>
+          </ul>
+
+
+          <h4>
+            {{layoutData[0].bottomLine}} 
+            
+          </h4>
+        </div>  
     </div>
   </div>
 </div>
