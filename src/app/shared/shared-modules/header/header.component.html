@@ -18,10 +18,32 @@
         </div>
   </div>
   <div class="container main-menu">
-      <div class="row align-items-center justify-content-between d-flex">
+      <div class=" align-items-center justify-content-between d-flex">
+
+      
+
         <div id="logo">
           <a ><img style="width: 65px; height: 60px;" src="assets/img/logo.png" alt="" title="" /></a>
         </div>
+
+      <!--toggle agdd kiya hai-->
+
+      <!-- <div class="mobile-toggle" onclick="document.getElementById('nav-menu-container').classList.toggle('active')">☰</div> -->
+
+
+        <!-- for toggle three lines-->
+
+        <!-- 👇 Yeh hamburger icon ka div paste karo -->
+  <div class="hamburger-icon" (click)="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+
+
+
+
         <nav #hoverDiv id="nav-menu-container">
           <ul class="nav-menu">
             <li class="menu-active"><a routerLink="/home">Home</a></li>

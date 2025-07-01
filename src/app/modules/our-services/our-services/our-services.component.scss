@@ -1,1 +1,377 @@
 @import url('../../home/home/home.component.scss');
+.bim-modeling-section {
+    padding-top: 80px;
+  }
+  
+//   .container {
+//     max-width: 1200px;
+//     margin: 0 auto;
+//     text-align: center;
+//   }
+  
+  .services_heading {
+    // font-size: 1.2rem;
+    // color: #f05d23;
+    margin-bottom: 10px;
+  }
+  .services_heading {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .services_heading span {
+    display: block;
+    width: 50px; /* Adjust the line length */
+    height: 2px; /* Adjust the line thickness */
+    background-color: orange; /* Adjust the line color */
+  }
+  
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    // font-size: 1rem;
+    // line-height: 1.6;
+    // margin-bottom: 30px;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-between;
+    // gap: 20px;
+  }
+  
+  .bim-image {
+    width: 49%;
+    // border: 1px solid #ccc;
+    border-radius: 5px;
+    // box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  } 
+  .mb-12{
+    margin-bottom: 12px;
+  }
+  .content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .custom-width{
+    width: 49%;
+    // margin-top: 43px;
+  }
+  .img-text-layout-container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .img-text-layout-container-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+  } 
+  .img-text-layout-container-left-heading{
+    font-size: 64px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  .img-text-layout-container-left-description{
+    font-weight: normal;
+  }
+  
+  .img-text-layout-container-right{
+    width: 50%;
+  }
+  .bim-modeling-section-img{
+    height: 800px;
+    width: 100%;
+    // max-width: 100%;
+    // height: auto;
+  }
+  .services-thrid-section-heading{
+    font-weight: normal;
+    margin-bottom: 35px;
+  }
+  .services-thrid-section-img{
+    width: 100%;
+    height: 700px;
+  }
+  .img-text-layout-container-right-common{
+    width: 50%;
+  }
+  .img-text-layout-container-common{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+  }
+  
+.img-text-layout-container-left-common{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+  } 
+  .img-text-layout-container-left-heading-common{
+    font-size: 64px;
+    font-weight: normal;
+  }
+  .img-text-layout-container-left-description-common{
+    font-weight: normal;
+  }
+  
+  .bim-modeling-section-img-common{
+    height: 600px;
+    width: 100%;
+  }
+  .d-flex{
+    display: flex;
+  }
+  .justify-content-center{
+    justify-content: center;
+  }
+  .w-100{
+    width: 100%;
+  }
+  .custom-height-similar-projects{
+    height: 460px;
+  }
+  .similar-projects-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .mb-10{
+    margin-bottom: 10px;
+  }
+  .br-8{
+    border-radius: 8px;
+  }
+.similar-proimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.h300{
+    height: 400px;
+}
+.build-project-bg-color{
+    background: #564548;
+    background: url(../../../../assets/ourservices/GettyImages-1313854425.jpg) center;
+}
+.build-project-container{
+    // background-image: url();
+    display: flex;
+    flex-direction: column;
+    top: 13%;
+}
+.fw-normal{
+    font-weight: normal;
+}
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.build-together-text{
+    font-weight: normal;
+    font-size: 55px;
+    color: white;
+}
+.build-btn{
+    background-color: #1C1A1A;
+    border-style: solid;
+    color: white;
+    padding: 18px 32px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.mb-18{
+    margin-bottom: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+
+.scroll-effect-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%; /* Ensure full width */
+  margin: auto;
+}
+
+.scroll-effect-image-section {
+  flex: 1;
+  position: sticky;
+  top: 20px; /* Keeps image sticky */
+  // height: 100vh; /* Keeps it visible */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.scroll-effect-image-section img {
+  height: auto;
+}
+.mt-80px{
+  margin-top: 80px;
+}
+.text-section {
+  flex: 1;
+  width: 100%; /* Fix: Allow it to expand fully */
+  max-width: 100%; /* Ensure no constraint */
+  padding-bottom: 150px;
+}
+
+.img-text-layout-container-left-common {
+  width: 100%; /* Ensure full width */
+}
+.img-cont img {
+  transition: transform 0.3s ease;
+}
+.mt-60px{
+  margin-top: 95px;
+}
+.img-cont img:hover {
+  transform: scale(1.05); /* halka zoom */
+}
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%; /* adjust as per design */
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover img {
+  transform: scale(1.05);
+}
+.services-upper li{
+  // border: 1px solid black;
+  padding: 8px 35px;
+  border-radius: 8px;
+  background-color: #eee;
+}
+//mediaquery
+
+/* Responsive for mobile (max-width: 480px including 320px) */
+@media only screen and (max-width: 480px) {
+  .bim-modeling-section {
+    padding-top: 40px;
+  }
+
+  .services_heading {
+    font-size: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .images {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bim-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .img-text-layout-container,
+  .img-text-layout-container-common {
+    flex-direction: column;
+  }
+
+  .img-text-layout-container-left,
+  .img-text-layout-container-right,
+  .img-text-layout-container-left-common,
+  .img-text-layout-container-right-common {
+    width: 100%;
+  }
+
+  .img-text-layout-container-left-heading,
+  .img-text-layout-container-left-heading-common {
+    font-size: 28px;
+  }
+
+  .services-thrid-section-img,
+  .bim-modeling-section-img,
+  .bim-modeling-section-img-common {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .scroll-effect-container {
+    flex-direction: column;
+  }
+
+  .scroll-effect-image-section {
+    position: static;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .build-project-container {
+    position: static;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .build-together-text {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .build-btn {
+    padding: 12px 20px;
+    margin: 10px 5px;
+    font-size: 16px;
+  }
+
+  .services-upper {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .services-upper li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .similar-projects-img-container {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .similar-proimg{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .img-cont img:hover {
+    transform: none; // disable zoom on small screens
+  }
+}
