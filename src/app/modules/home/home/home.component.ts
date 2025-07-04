@@ -10,10 +10,10 @@ export class HomeComponent {
   constructor(){}
 
   bim_outsourcing = {
-    h1tag: "BIM OUTSOURCING ARCHITECTURE ",
-    spantag: "Delivering top-notch BIM Revit modeling services with a focus on exceptionalquality, rapid turnaround times, and a collaborative, client-centered approach.",
+    h1tag: "BRINGING YOUR IDEAS TO LIFE WITH EXCELLENCE AND EXPERTISE",
+    spantag: "DELIVERING TOP-NOTCH BIM REVIT MODELING SERVICES WITH A FOCUS ON EXCEPTIONAL QUALITY, RAPID TURNAROUND TIMES, AND A COLLABORATIVE, CLIENT-CENTERED APPROACH.",
     ptag: "Our Revit BIM Modeling Services encompass a wide range of offerings, including BIMArchitectural Modeling, Architectural Drafting, 3D Rendering, Structural Modeling and Detailing(such as rebar and precast), MEP-FP Modeling and Detailing, BIM Coordination and ClashDetection, Revit Family Creation, Point Cloud to BIM Conversion, CAD to BIM Services, preciseShop Drawing Development, As-built Drawings, and more."
-  }
+  } 
   // OUR BIM OUTSOURCING SERVICE OFFERINGS - cards
   // ARCHITECTURE BIM SERVICEVIDEOOUR
 
