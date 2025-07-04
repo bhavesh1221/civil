@@ -23,5 +23,6 @@ import { ProjectsComponent } from './projects/projects.component';
     SharedModulesModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
+  
 })
 export class HomeModule { }

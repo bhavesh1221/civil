@@ -132,6 +132,7 @@
   .main-services{
         font-size: 14px;
       }
+
       .mr-35px{
         margin-right: 35px;
       }
@@ -139,3 +140,31 @@
 .br-20{
   border-radius: 20px;
 }
+.star-display {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 4px;
+}
+
+.star {
+  color: #ffc107; /* gold color */
+  position: relative;
+}
+
+.star.half::before {
+  content: '\2605'; /* full star */
+  position: absolute;
+  width: 50%;
+  overflow: hidden;
+  color: #ccc; /* background of the unfilled half */
+}
+.rating-text {
+  margin-left: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+.cstm-mrgn{
+  margin-top: 70px;
+}
+ 

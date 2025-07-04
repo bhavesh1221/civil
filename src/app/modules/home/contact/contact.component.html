@@ -1,16 +1,6 @@
 <app-header></app-header>
 
-<iframe
-  width="100%"
-  height="450"
-  style="border:0"
-  allowfullscreen=""
-  loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade"
-  src="https://www.google.com/maps?q=81%2F2+Bhawanipur+Colony,+Indore&output=embed"
-></iframe>
-
-<div class="container">
+<div class="container cstm-mrgn">
   <div style="padding: 60px 125px;">
     <h3 style="color: black;">
       LET’S START NEW PEOJECT.
@@ -19,7 +9,15 @@
       </h3>
       <br>
       <h3 style="color: black;">
-        You can also email us your details: THEZENITHVISIONS@GMAIL.COM
+        
+        You can also email us your details: <a
+  href="thezenithvisions@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  thezenithvisions@gmail.com
+</a>
+
       </h3>
   </div>
 </div>
@@ -31,13 +29,42 @@
     </div>
     <div class="contact-container container">
       <div class="contact-left">
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+        <i class="fa fa-envelope-o" style="color: white;"></i>
+        <h3>Email Us</h3>
+        <p>enquiry@cresireconsulting.com</p>
+  
+        <h4>India</h4>
+        <p>(+91) 8770093683</p>
+  
+        <h4>USA</h4>
+        <p>(+1) 5513476950</p>
+  
+        <h4>Address</h4>
+        <p>81/2 Bhawanipur colony, INDORE.</p>
+=======
+>>>>>>> Stashed changes
         <!-- <i class="fa fa-envelope-o" style="color: white;"></i> -->
         <div class="d-flex align-items-center">
           <img class="mr-35px bg-white" width="35" height="40" src="../../../../assets/contactus/email2.png" alt="email">
           <div class="">
             <!-- <img class="" width="35" height="40" src="../../../../assets/contactus/email.jpg" alt="email"> -->
             <h3 class="mt-0 mb-0 mr-3">Email Us</h3>
+<<<<<<< Updated upstream
             <p class="m-0">enquiry@cresireconsulting.com</p>
+=======
+            <p class="m-0"><a
+  href="thezenithvisions@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="text-white"
+>
+thezenithvisions@gmail.com
+</a>
+</p>
+>>>>>>> Stashed changes
           </div>
         </div>
         
@@ -65,6 +92,10 @@
           <p>81/2 Bhawanipur colony, INDORE.</p>
          </div>
         </div>
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   
         <div class="social">
           <h4>Follow Us</h4>
@@ -140,8 +171,18 @@
     <section class="stats">
       <div><strong>90%</strong><br>Repeat Clients</div>
       <div><strong>10</strong><br>Countries We Worked for</div>
-      <div><strong>500+<br>PROJECTS</strong></div>
-      <div><strong>4.9</strong><br>Client Rating</div>
+      <div id="project-counter"><strong>{{projectCount}}+<br>PROJECTS</strong></div>
+      
+      <div>
+        <!-- <div class="star-display"> -->
+        <strong class="rating-text">4.9 </strong>
+        <span class="star">&#9733;</span> <!-- Filled star -->
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star">&#9733;</span>
+        <span class="star ">&#9733;</span> <!-- Half star -->
+      <!-- </div> -->
+      <br>Client Rating</div>
     </section>
     <div class="text-center mt-5 mb-4">
       <h4 style="color: black; font-size: 22px;">
@@ -149,7 +190,9 @@
       </h4>
     </div>
     <!-- //maps -->
-    <div id="chartdiv" style="width: 100%; height: 500px"></div>
+     <div class="d-flex justify-content-center">
+       <div id="chartdiv" style="width: 50%; height: 500px"></div>
+     </div>
 </div>
 
 <app-footer>
