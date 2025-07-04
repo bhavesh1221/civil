@@ -15,9 +15,9 @@ const routes: Routes = [
  {
   path: 'aboutus', component: AboutusComponent
  },
- {
-  path: 'projects', component: ProjectsComponent
- }
+//  {
+//   path: 'projects', component: ProjectsComponent
+//  }
 ];
 
 @NgModule({
