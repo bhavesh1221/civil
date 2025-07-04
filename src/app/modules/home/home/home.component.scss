@@ -1208,7 +1208,7 @@ h6 {
 }
 
 .progress-table .table-row .percentage .progress .progress-bar.color-8 {
-    background-color: #e66686
+    background-color: #e66686 
 }
 
 .single-gallery-image {
@@ -4105,8 +4105,33 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 1px solid transparent
 }
 
+
 .comment-form .primary-btn:hover {
     background: transparent;
     border-color: #c6b069 !important;
     color: #c6b069 !important
+}
+body{
+    font-family: system-ui;
+}
+*{
+    font-family: system-ui;
+
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1280px;
+    }
+}
+//bootstrap
+
+@media (max-width: 767px) {
+  .service-area .row > a.col,
+  .service-area .row > a.col-lg-4 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 15px;
+  }
 }
