@@ -14,7 +14,7 @@ export class ContactComponent implements OnInit {
   files: File[] = [];
   isDragOver: boolean = false;
   zoom = 12;
-  center: google.maps.LatLngLiteral = { lat: 22.7196, lng: 75.8577 }; // Indore
+  // center: google.maps.LatLngLiteral = { lat: 22.7196, lng: 75.8577 }; // Indore
   constructor(private zone: NgZone) {}
   ngOnInit() {
       
