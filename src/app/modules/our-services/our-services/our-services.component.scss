@@ -213,12 +213,11 @@
 .scroll-effect-image-section {
   flex: 1;
   position: sticky;
-  top: 20px; /* Keeps image sticky */
+  top: 100px; /* Keeps image sticky */
   // height: 100vh; /* Keeps it visible */
   display: flex;
   align-items: center;
   justify-content: flex-start;
-}
 
 .scroll-effect-image-section img {
   height: auto;
@@ -230,8 +229,10 @@
   flex: 1;
   width: 100%; /* Fix: Allow it to expand fully */
   max-width: 100%; /* Ensure no constraint */
-  padding-bottom: 150px;
+  // padding-bottom: 150px;
 }
+
+
 
 .img-text-layout-container-left-common {
   width: 100%; /* Ensure full width */
@@ -269,4 +270,5 @@
   padding: 8px 35px;
   border-radius: 8px;
   background-color: #eee;
+}
 }
