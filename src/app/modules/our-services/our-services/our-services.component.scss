@@ -270,3 +270,183 @@
   border-radius: 8px;
   background-color: #eee;
 }
+
+  .responsive-gap {
+    height: 200px !important; //  Mobile par height kam
+  }
+
+
+//mediaquery
+// Responsive for mobile (max-width: 480px including 320px) 
+@media only screen and (max-width: 480px) {
+  .bim-modeling-section {
+    padding-top: 40px;
+  }
+
+  .services_heading {
+    font-size: 18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .images {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bim-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .img-text-layout-container,
+  .img-text-layout-container-common {
+    flex-direction: column;
+  }
+
+  .img-text-layout-container-left,
+  .img-text-layout-container-right,
+  .img-text-layout-container-left-common,
+  .img-text-layout-container-right-common {
+    width: 100%;
+  }
+
+  .img-text-layout-container-left-heading,
+  .img-text-layout-container-left-heading-common {
+    font-size: 28px;
+  }
+
+  .services-thrid-section-img,
+  .bim-modeling-section-img,
+  .bim-modeling-section-img-common {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .scroll-effect-container {
+    flex-direction: column;
+  }
+
+  .scroll-effect-image-section {
+    position: static;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .build-project-container {
+    position: static;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .build-together-text {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .build-btn {
+    padding: 12px 20px;
+    margin: 10px 5px;
+    font-size: 16px;
+  }
+
+  .services-upper {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .services-upper li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .similar-projects-img-container {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .similar-proimg{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .img-cont img:hover {
+    transform: none; // disable zoom on small screens
+  }
+}
+
+
+//sticky images ke liye
+@media (max-width: 768px) {
+  .scroll-effect-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .scroll-effect-image-section {
+    width: 100% !important;
+    position: sticky;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .scroll-effect-image-section img {
+    width: 100% !important;
+    height: auto;
+    max-height: 370px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .text-section {
+    width: 100%;
+    padding: 0 10px;
+    padding-bottom: 50px;
+  }
+
+  .img-text-layout-container-left-common {
+    margin-bottom: 40px;
+  }
+
+  .img-text-layout-container-left-heading-common {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .img-text-layout-container-left-description-common {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .img-text-layout-container-left-common ul {
+    padding-left: 16px;
+  }
+
+  .img-text-layout-container-left-common li {
+    font-size: 14px;
+  }
+
+  .section-gap {
+    height: 100px;
+  }
+}
+
+// heading+discription+bullet points ke bich bich ki space hai
+@media (max-width: 768px) {
+  .responsive-gap {
+    height: 60px !important; //  Mobile par height kam
+  }
+}
+
+
+
+
+
+
+
