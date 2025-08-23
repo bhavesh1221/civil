@@ -5,6 +5,7 @@ import * as am5map from '@amcharts/amcharts5/map';
 import am5geodata_worldLow from "@amcharts/amcharts5-geodata/worldLow";
 
 
+
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
