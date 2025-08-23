@@ -212,5 +212,66 @@
   .social-icons i:hover {
     color: #fff;
   }
-  
-  
+
+  //footer mobile responsive
+@media (max-width: 768px) {
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .footer-column {
+    flex: 0 0 48%;
+    min-width: 160px;
+    text-align: left;
+    padding: 10px 5px;
+  }
+
+  .footer-column h3 {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 6px;
+  }
+
+  .footer-column ul li a {
+    font-size: 13px;
+  }
+
+  .footer-logo-text h2 {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+
+
+  .footer-social-logo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+  }
+
+  .footer-social-logo li {
+    margin: 0 5px;
+  }
+
+  .footer-social-logo a i {
+    font-size: 18px;
+  }
+
+  #backToTop {
+    font-size: 12px;
+    padding: 6px 10px;
+    margin-top: 10px;
+  }
+  .h4, h4{
+    font-size: 1.1rem;
+
+  }
+}

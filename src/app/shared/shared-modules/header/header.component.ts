@@ -6,7 +6,16 @@ import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
+
+  isMenuOpen = false;
+  
   @ViewChild('hoverDiv') hoverDiv!: ElementRef;
+
+
+toggleMenu() {
+  this.isMenuOpen = !this.isMenuOpen;
+}
+
   // @HostListener('mouseenter') onMouseEnter() {
   //   // this.backgroundColor = 'lightblue';
   //   console.log('Mouse entered');
