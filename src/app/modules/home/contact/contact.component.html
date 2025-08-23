@@ -72,10 +72,10 @@
   </div>
 
   <!-- Reviews -->
-  <div class="reviews">
+  <!-- <div class="reviews">
     <h4>Our Reviews</h4>
     <div class="review-box">[Review Box]</div>
-  </div>
+  </div> -->
 
 </div>
 
@@ -104,7 +104,7 @@
           <input type="text" placeholder="Subject*">
           <textarea placeholder="Describe your project requirement*"></textarea>
           
-          <div class="upload-area" 
+          <!-- <div class="upload-area" 
           (click)="fileInput.click()"
           (dragover)="onDragOver($event)"
           (dragleave)="onDragLeave($event)"
@@ -112,7 +112,7 @@
           [class.dragover]="isDragOver">
        <p>Click or drag files to this area to upload.<br>You can upload up to 30 files.</p>
        <input type="file" #fileInput (change)="onFileChange($event)" multiple hidden>
-     </div>
+     </div> -->
      
      <ul>
        <li *ngFor="let file of files">{{ file.name }}</li>
@@ -120,7 +120,7 @@
      <div class="d-flex justify-content-center">
 
       
-<button type="button" (click)="sendEmail($event)">
+<button style="border-radius: 6px;" type="button" (click)="sendEmail($event)">
     Submit the Details
 </button>
      </div>
