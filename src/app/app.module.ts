@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/components/footer/footer/footer.component';
 import { HomeModule } from './modules/home/home.module';
 import { OurServicesModule } from './modules/our-services/our-services.module';
-// import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [

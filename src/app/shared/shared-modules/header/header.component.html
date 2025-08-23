@@ -34,7 +34,18 @@
         <div id="logo">
           <a ><img style="width: 65px; height: 60px;" src="assets/img/logo.png" alt="" title="" /></a>
         </div>
-        <nav #hoverDiv id="nav-menu-container">
+
+        <!-- for toggle three lines-->
+
+        <!--  Yeh hamburger icon ka div paste karo -->
+    <div class="hamburger" (click)="toggleMenu()" [class.open]="isMenuOpen">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<nav #hoverDiv id="nav-menu-container" [class.open]="isMenuOpen">
+
           <ul class="nav-menu">
             <li class="menu-active "><a class="change-color hover-underline" routerLink="/home">Home</a></li>
             <li><a class="change-color hover-underline" href="javascript:void(0)">Projects</a></li>

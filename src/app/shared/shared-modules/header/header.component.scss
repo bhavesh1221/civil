@@ -4174,3 +4174,180 @@ li a:hover {
 .anchor-customcss{
     // padding: 0px !important;
 }
+
+
+
+/* Mobile header responsiveness */
+// hamburger hiden on large screen
+.hamburger {
+  display: none;
+}
+
+/* Mobile header styles */
+@media (max-width: 768px) {
+  .main-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    #logo {
+      flex: 1;
+      text-align: left;
+
+      img {
+        width: 55px;
+        height: auto;
+      }
+    }
+ .hamburger {
+  position: absolute;   // ya fixed if you want it to stay on scroll
+  top: 30px;            // nav bar ke top se distance
+  right: 35px;          // right side me fix
+  width: 25px;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  z-index: 1001;
+
+  span {
+    display: block;
+    height: 3px;
+    background: black;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+  &.open {
+    span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+    span:nth-child(2) {
+      opacity: 0;
+    }
+    span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+  }    
+    }
+//---------------------------------------------------------//
+
+ #nav-menu-container {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+
+  &.open {
+    display: flex;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;   // 🔹 Stack vertically
+    align-items: center;      // 🔹 Center horizontally
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+
+    li {
+      text-align: center;
+      width: 100%;
+
+      a {
+        display: inline-block;
+        padding: 12px 0;
+        font-size: 14px;
+        text-decoration: none;
+        width: 100%;          // full clickable area
+      }
+    }
+  }
+}
+
+    }    
+   }
+  
+
+  //services waale ko mobile responsive baanaaya hai
+
+//   @media (max-width: 768px) {
+//   .nav-menu li {
+//     font-size: 14px;
+//     padding: 10px;
+//     line-height: 1.4;
+//   }
+// }
+
+
+@media (max-width: 767px) {
+
+ 
+  .menu-has-children > ul > li > div {
+    display: block !important;
+    gap: 0 !important;
+    padding: 0 10px !important;
+  }
+
+  .nav-services {
+    width: 100% !important;
+    display: block !important;
+    margin: 12px 0 !important;
+    padding: 0 !important;
+  }
+ 
+  .main-services {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    color: #c6b069 !important;
+    margin-bottom: 6px !important;
+    text-align: left !important;
+  }
+
+  .sub-services {
+    font-size: 11.5px !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+    margin: 3px 0 !important;
+    padding-left: 12px !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+  }
+ 
+  .menu-has-children ul li > div[style*="display: flex"] {
+    display: block !important;
+    gap: 0 !important;
+  }
+
+  .nav-menu li {
+    position: static !important;
+    white-space: normal !important;
+  }
+
+  .menu-has-children > ul {
+    padding: 10px 5px !important;
+  }
+
+  .menu-has-children .dropdown {
+    position: relative !important;
+    width: 100% !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    overflow-y: auto;
+    max-height: 100vh;
+    z-index: 999;
+  }
+
+ 
+  body {
+    overflow-x: hidden !important;
+  }
+}

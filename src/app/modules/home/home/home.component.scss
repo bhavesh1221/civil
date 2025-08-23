@@ -4078,6 +4078,7 @@ a{
 
 @media (max-width: 991px) {
     .comment-form .email {
+
         padding-left: 0px
     }
 }
@@ -4137,4 +4138,17 @@ body{
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1280px;
     }
+}
+
+//Bootstrap lgaayi maiine
+// services ko vertically small screnn
+@media (max-width: 767px) {
+  .service-area .row > a.col,
+  .service-area .row > a.col-lg-4 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 15px;
+  }
 }

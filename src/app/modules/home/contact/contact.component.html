@@ -22,42 +22,70 @@
 
     </div>
     <div class="contact-container container">
-      <div class="contact-left">
-        <i class="fa fa-envelope-o" style="color: white;"></i>
-        <h3>Email Us</h3>
-        <p>enquiry@cresireconsulting.com</p>
-  
-        <h4>India</h4>
-        <p>(+91) 8770093683</p>
-  
-        <h4>USA</h4>
-        <p>(+1) 5513476950</p>
-  
-        <h4>Address</h4>
-        <p>81/2 Bhawanipur colony, INDORE.</p>
-  
-        <div class="social">
-          <h4>Follow Us</h4>
-          <div class="icons">
-            <a href="#"> <i class="fa fa-facebook-f" style="font-size:20px;color:rgb(53, 89, 252)"></i> </a>
-            <a href="#"><i class="fa fa-linkedin" style="font-size:20px;"></i></a>
-            <a href="#"><i class="fa fa-instagram" style="font-size:20px;"></i></a>
-            <a href="#"><i class="fa fa-youtube-play" style="font-size:20px;"></i></a>
-          </div>
-        </div>
-  
-        <div class="reviews">
-          <h4>Our Reviews</h4>
-          <div class="review-box">[Review Box]</div>
-        </div>
-      </div>
+<div class="contact-left">
+
+  <!-- Email -->
+  <div class="contact-item">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="icon-img">
+    <div>
+      <h3>Email Us</h3>
+      <p>enquiry@cresireconsulting.com</p>
+    </div>
+  </div>
+
+  <!-- India -->
+  <div class="contact-item">
+     <img src="https://cdn-icons-png.flaticon.com/512/206/206606.png" alt="India" class="icon-img">
+    <div>
+      <h4>India</h4>
+      <p>(+91) 8770093683</p>
+    </div>
+  </div>
+
+  <!-- USA -->
+  <div class="contact-item">
+    <img src="https://cdn-icons-png.flaticon.com/512/206/206626.png" alt="USA" class="icon-img">
+    <div>
+      <h4>USA</h4>
+      <p>(+1) 5513476950</p>
+    </div>
+  </div>
+
+  <!-- Address -->
+  <div class="contact-item">
+    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Address" class="icon-img">
+    <div>
+      <h4>Address</h4>
+      <p>81/2 Bhawanipur colony, INDORE.</p>
+    </div>
+  </div>
+
+  <!-- Follow Us -->
+  <h4>Follow Us</h4>
+  <div class="social-icons">
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png"alt="WhatsApp"></a>
+    <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="Pinterest"></a>
+  </div>
+
+  <!-- Reviews -->
+  <div class="reviews">
+    <h4>Our Reviews</h4>
+    <div class="review-box">[Review Box]</div>
+  </div>
+
+</div>
+
   
       <div class="contact-right">
         
         <form>
           <div class="row">
             <div class="col">
-                <input type="text" placeholder="Name*">
+                <input type="text" placeholder="Name">
             </div>
             <div class="col">
                 <input type="text" placeholder="Company Name">
@@ -75,6 +103,7 @@
           
           <input type="text" placeholder="Subject*">
           <textarea placeholder="Describe your project requirement*"></textarea>
+          
           <div class="upload-area" 
           (click)="fileInput.click()"
           (dragover)="onDragOver($event)"
@@ -89,9 +118,11 @@
        <li *ngFor="let file of files">{{ file.name }}</li>
      </ul>
      <div class="d-flex justify-content-center">
-        <button>
-            Submit the Details
-        </button>
+
+      
+<button type="button" (click)="sendEmail($event)">
+    Submit the Details
+</button>
      </div>
         </form>
       </div>
@@ -108,8 +139,43 @@
         Offering World-class BIM and CAD services at Global Level.
       </h4>
     </div>
+
+    
     <!-- //maps -->
+     <div class="contact-map">
     <div id="chartdiv" style="width: 100%; height: 500px"></div>
+    <!-- </div> -->
+
+
+  <script>
+    Highcharts.mapChart('chartdiv',{
+      chart: {
+        map: null // using just tiled web map layer
+      },
+      title: {
+        text: 'Highcharts Tiled Web Map (No Connected Lines)'
+      },
+      mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+          verticalAlign: 'bottom'
+        }
+      },
+      series: [
+        {
+          type: 'tiledwebmap',
+          name: 'Basemap Tiles',
+          provider: {
+            type: 'OpenStreetMap',
+            theme: 'Standard',
+            subdomain: 'a'
+          },
+          showInLegend: false
+        }
+        // No connecting lines are added here — clean base map only
+      ]
+    });
+  </script>
 </div>
 
 <app-footer>
